@@ -1,6 +1,7 @@
 {
   "frames/time_2023-11-08_16:01:00.jpg": {
     "humidity": 10,
-    "temperature": 60
+    "temperature": 60,
+    "rating": 8
   }
 }
