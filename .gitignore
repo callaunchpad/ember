@@ -1,0 +1,4 @@
+env/
+squamish-data/frames/*
+*.jpg
+.DS_Store
