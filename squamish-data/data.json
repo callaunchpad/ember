@@ -2,6 +2,13 @@
   "frames/time_2023-11-08_16:01:00.jpg": {
     "humidity": 10,
     "temperature": 5,
-    "precipitation": 0
+    "wspd": 1.8,
+    "coco": 3.0,
+    "rhum": 99.0,
+    "pres": 1030.5,
+    "prcp": 0.0,
+    "dwpt": 5.2,
+    "temp": 5.3,
+    "meme": 5
   }
 }
