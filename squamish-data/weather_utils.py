@@ -11,15 +11,6 @@ def get_weather_data(time, location="Squamish"):
 
 
 def get_weather_data_for_frames(frame_dir):
-    # iterate through frames in frame_dir
-    # files = os.listdir(frame_dir)
-
-    # frame_files = [
-    #     file
-    #     for file in files
-    #     if file.endswith(".jpg") or file.endswith(".png") or file.endswith(".jpeg")
-    # ]
-
     with open("data.json") as json_file:
         image_dict = json.load(json_file)
 
