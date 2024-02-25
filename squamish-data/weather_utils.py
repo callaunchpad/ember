@@ -1,20 +1,35 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, time, date
 import os
 import json
 
 import http.client
 from meteostat import Point, Daily, Hourly
+from utils import update_json, round_datetime_to_minute
+
+from suntime import Sun, SunTimeException
+
+import requests
+from geopy.geocoders import Nominatim
 
 date_obj_format = "%Y-%m-%d %H:%M:%S"
 
-SQUAMISH_COORDS = Point(
+SQUAMISH_COORDS = (
     49.7016,
-    123.1558,
+    -123.1558,  # DONT FORGET NEGATIVE
 )
+sun = Sun(SQUAMISH_COORDS[0], SQUAMISH_COORDS[1])
 
-SQUAMISH_METEOSTAT_ID = "71207"
+SQUAMISH_METEOSTAT_ID = "71211"  # "71207"
 
-WEATHER_STATISTICS = {"temp", "dwpt", "rhum", "prcp", "wspd", "pres", "coco"}
+WEATHER_STATISTICS = {
+    "temp",
+    "dwpt",
+    "rhum",
+    "prcp",
+    "wspd",
+    "pres",
+    "coco",
+}
 
 
 def get_weather_df(start_time, end_time):
@@ -96,30 +111,31 @@ def get_weather_data_for_frames(frame_dir):
     return image_dict
 
 
-# Updates json with new image dict. If image already in data.json, it's not added again.
-def update_json(new_image_dict, OVERWRITE_EXISTING=False):
-    # Read JSON
-    with open("data.json") as json_file:
-        existing_image_dict = json.load(json_file)
+# day_obj specifies the year-month-day
+def get_sunset_time(day_obj):
+    r = requests.get(
+        "https://api.sunrisesunset.io/json",
+        params={
+            "lat": SQUAMISH_COORDS[0],
+            "lng": SQUAMISH_COORDS[1],
+            "date": day_obj,
+            "timezone": "PST",
+        },
+    ).json()
+    sunset = r["results"]["sunset"]
 
-    # Get image paths
-    image_paths = existing_image_dict.keys()
+    # Convert date format to our format
+    time_obj = datetime.strptime(sunset, "%I:%M:%S %p").time()
+    date_obj = date(day_obj.year, day_obj.month, day_obj.day)
 
-    # Update the existing dictionary with new images
-    for image_path, image_properties in new_image_dict.items():
-        if image_path in image_paths and not OVERWRITE_EXISTING:
-            continue
-
-        # Go through each key/value for this image.
-        for key, value in image_properties.items():
-            existing_image_dict[image_path][key] = value
-
-    # Save updated dictionary
-    with open("data.json", "w") as f:
-        json.dump(existing_image_dict, f)
+    datetime_obj = datetime.combine(date_obj, time_obj)
+    # formatted_datetime = datetime_obj.strftime("%Y-%m-%d %H:%M:%S")
+    return datetime_obj
 
 
 if __name__ == "__main__":
     new_image_dict = get_weather_data_for_frames("frames/")
 
     update_json(new_image_dict, OVERWRITE_EXISTING=True)
+
+    # print(get_sunset_time(datetime.strptime("2020-05-08 00:00:00", date_obj_format)))
