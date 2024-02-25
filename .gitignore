@@ -3,3 +3,4 @@ squamish-data/frames/*
 *.jpg
 .DS_Store
 *.pyc
+.env

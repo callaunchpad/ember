@@ -1,218 +1,59 @@
 {
   "frames/time_2023-11-08_16:41:00.jpg": {
-    "wspd": 3.6,
-    "temp": 8.0,
-    "rhum": 84.0,
-    "dwpt": 5.5,
-    "pres": 1031.4,
-    "prcp": 0.0,
-    "coco": 3.0
+    "temp": 46.6,
+    "humidity": 87.4,
+    "dew": 43.0,
+    "precip": 0.0,
+    "precipprob": 0.0,
+    "snow": 0.0,
+    "snowdepth": 0.0,
+    "preciptype": null,
+    "windgust": null,
+    "windspeed": 2.9,
+    "pressure": 1030.1,
+    "cloudcover": 87.0,
+    "solarradiation": 9.0,
+    "solarenergy": 0.0,
+    "conditions": "Partially cloudy",
+    "overall_day_visibility": 9.5,
+    "overall_day_preciptype": ["rain"]
   },
   "frames/time_2023-11-08_16:42:00.jpg": {
-    "wspd": 3.6,
-    "temp": 8.0,
-    "rhum": 84.0,
-    "dwpt": 5.5,
-    "pres": 1031.4,
-    "prcp": 0.0,
-    "coco": 3.0
+    "temp": 46.6,
+    "humidity": 87.4,
+    "dew": 43.0,
+    "precip": 0.0,
+    "precipprob": 0.0,
+    "snow": 0.0,
+    "snowdepth": 0.0,
+    "preciptype": null,
+    "windgust": null,
+    "windspeed": 2.9,
+    "pressure": 1030.1,
+    "cloudcover": 87.0,
+    "solarradiation": 9.0,
+    "solarenergy": 0.0,
+    "conditions": "Partially cloudy",
+    "overall_day_visibility": 9.5,
+    "overall_day_preciptype": ["rain"]
   },
   "frames/time_2023-11-08_16:43:00.jpg": {
-    "wspd": 3.6,
-    "temp": 8.0,
-    "rhum": 84.0,
-    "dwpt": 5.5,
-    "pres": 1031.4,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-09_16:39:00.jpg": {
-    "wspd": 40.7,
-    "temp": 8.2,
-    "rhum": 83.0,
-    "dwpt": 5.5,
-    "pres": 1019.1,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-09_16:40:00.jpg": {
-    "wspd": 40.7,
-    "temp": 8.2,
-    "rhum": 83.0,
-    "dwpt": 5.5,
-    "pres": 1019.1,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-09_16:41:00.jpg": {
-    "wspd": 40.7,
-    "temp": 8.2,
-    "rhum": 83.0,
-    "dwpt": 5.5,
-    "pres": 1019.1,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-10_16:38:00.jpg": {
-    "wspd": 1.8,
-    "temp": 7.9,
-    "rhum": 94.0,
-    "dwpt": 7.0,
-    "pres": 1019.0,
-    "prcp": 0.8,
-    "coco": 8.0
-  },
-  "frames/time_2023-11-10_16:39:00.jpg": {
-    "wspd": 1.8,
-    "temp": 7.9,
-    "rhum": 94.0,
-    "dwpt": 7.0,
-    "pres": 1019.0,
-    "prcp": 0.8,
-    "coco": 8.0
-  },
-  "frames/time_2023-11-10_16:40:00.jpg": {
-    "wspd": 1.8,
-    "temp": 7.9,
-    "rhum": 94.0,
-    "dwpt": 7.0,
-    "pres": 1019.0,
-    "prcp": 0.8,
-    "coco": 8.0
-  },
-  "frames/time_2023-11-11_16:36:00.jpg": {
-    "wspd": 25.9,
-    "temp": 10.1,
-    "rhum": 83.0,
-    "dwpt": 7.3,
-    "pres": 1006.3,
-    "prcp": 0.8,
-    "coco": 9.0
-  },
-  "frames/time_2023-11-11_16:37:00.jpg": {
-    "wspd": 25.9,
-    "temp": 10.1,
-    "rhum": 83.0,
-    "dwpt": 7.3,
-    "pres": 1006.3,
-    "prcp": 0.8,
-    "coco": 9.0
-  },
-  "frames/time_2023-11-11_16:38:00.jpg": {
-    "wspd": 25.9,
-    "temp": 10.1,
-    "rhum": 83.0,
-    "dwpt": 7.3,
-    "pres": 1006.3,
-    "prcp": 0.8,
-    "coco": 9.0
-  },
-  "frames/time_2023-11-12_16:35:00.jpg": {
-    "wspd": 42.5,
-    "temp": 8.0,
-    "rhum": 81.0,
-    "dwpt": 4.9,
-    "pres": 1014.3,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-12_16:36:00.jpg": {
-    "wspd": 42.5,
-    "temp": 8.0,
-    "rhum": 81.0,
-    "dwpt": 4.9,
-    "pres": 1014.3,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-12_16:37:00.jpg": {
-    "wspd": 42.5,
-    "temp": 8.0,
-    "rhum": 81.0,
-    "dwpt": 4.9,
-    "pres": 1014.3,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-13_16:34:00.jpg": {
-    "wspd": 1.8,
-    "temp": 8.3,
-    "rhum": 87.0,
-    "dwpt": 6.3,
-    "pres": 1016.7,
-    "prcp": 0.0,
-    "coco": 5.0
-  },
-  "frames/time_2023-11-13_16:35:00.jpg": {
-    "wspd": 1.8,
-    "temp": 8.3,
-    "rhum": 87.0,
-    "dwpt": 6.3,
-    "pres": 1016.7,
-    "prcp": 0.0,
-    "coco": 5.0
-  },
-  "frames/time_2023-11-13_16:36:00.jpg": {
-    "wspd": 1.8,
-    "temp": 8.3,
-    "rhum": 87.0,
-    "dwpt": 6.3,
-    "pres": 1016.7,
-    "prcp": 0.0,
-    "coco": 5.0
-  },
-  "frames/time_2023-11-14_16:32:00.jpg": {
-    "wspd": 13.0,
-    "temp": 5.2,
-    "rhum": 86.0,
-    "dwpt": 3.0,
-    "pres": 1020.7,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-14_16:33:00.jpg": {
-    "wspd": 13.0,
-    "temp": 5.2,
-    "rhum": 86.0,
-    "dwpt": 3.0,
-    "pres": 1020.7,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-14_16:34:00.jpg": {
-    "wspd": 13.0,
-    "temp": 5.2,
-    "rhum": 86.0,
-    "dwpt": 3.0,
-    "pres": 1020.7,
-    "prcp": 0.0,
-    "coco": 3.0
-  },
-  "frames/time_2023-11-15_16:31:00.jpg": {
-    "wspd": 18.4,
-    "temp": 5.7,
-    "rhum": 87.0,
-    "dwpt": 3.7,
-    "pres": 1016.4,
-    "prcp": 0.1,
-    "coco": 7.0
-  },
-  "frames/time_2023-11-15_16:32:00.jpg": {
-    "wspd": 18.4,
-    "temp": 5.7,
-    "rhum": 87.0,
-    "dwpt": 3.7,
-    "pres": 1016.4,
-    "prcp": 0.1,
-    "coco": 7.0
-  },
-  "frames/time_2023-11-15_16:33:00.jpg": {
-    "wspd": 18.4,
-    "temp": 5.7,
-    "rhum": 87.0,
-    "dwpt": 3.7,
-    "pres": 1016.4,
-    "prcp": 0.1,
-    "coco": 7.0
+    "temp": 46.6,
+    "humidity": 87.4,
+    "dew": 43.0,
+    "precip": 0.0,
+    "precipprob": 0.0,
+    "snow": 0.0,
+    "snowdepth": 0.0,
+    "preciptype": null,
+    "windgust": null,
+    "windspeed": 2.9,
+    "pressure": 1030.1,
+    "cloudcover": 87.0,
+    "solarradiation": 9.0,
+    "solarenergy": 0.0,
+    "conditions": "Partially cloudy",
+    "overall_day_visibility": 9.5,
+    "overall_day_preciptype": ["rain"]
   }
 }

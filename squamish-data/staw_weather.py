@@ -59,7 +59,7 @@ def add_one_chart_data_to_df(chart_data, column_name, df):
 
 # Results get added to result_df
 def read_one_day_data(df):
-    url = "https://chiefcam.com/json/weather/2022-12-03"  # f"https://chiefcam.com/json/weather/{date.year}-{date.month}-{date.day}"
+    url = "https://chiefcam.com/json/weather/2022-07-16"  # f"https://chiefcam.com/json/weather/{date.year}-{date.month}-{date.day}"
 
     response = requests.get(url)
 
