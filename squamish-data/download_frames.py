@@ -6,10 +6,25 @@ import cv2
 import sys
 
 from utils import update_json
-from weather_utils import get_sunset_time
+from utils import get_sunset_time
 from utils import round_datetime_to_minute
 
 date_obj_format = "%Y-%m-%d %H:%M:%S"
+SQUAMISH_COORDS = (
+    49.7016,
+    -123.1558,  # DONT FORGET NEGATIVE
+)
+
+
+"""
+
+Frames that don't exist: 10/9/18
+
+7/2/19 - stream ended early before sunset happened :(
+
+one that was just pure nighttime and time was way off - check for obvious nighttime'
+
+"""
 
 
 def opencv_read_frames(m3u8_url, output_path, START_TIME, END_TIME):
@@ -25,8 +40,8 @@ def opencv_read_frames(m3u8_url, output_path, START_TIME, END_TIME):
     cap = cv2.VideoCapture(m3u8_url)
 
     if cap.isOpened() == False:
-        print("!!! Unable to open URL")
-        sys.exit(-1)
+        print("---> Unable to open URL")
+        return
 
     fps = 5  # cap.get(cv2.CAP_PROP_FPS)
     print("FPS:", fps)
@@ -45,6 +60,13 @@ def opencv_read_frames(m3u8_url, output_path, START_TIME, END_TIME):
     while frame_time.day <= START_TIME.day:
         # read one frame
         ret, frame = cap.read()
+
+        # If frame not read properly
+        if not ret:
+            print(
+                "---> Frame not read in properly! It is likely the stream is missing the necessary frames. Skipping this day. "
+            )
+            break
 
         # Format the time as HH_MM_SS
         formatted_time = frame_time.strftime("%Y-%m-%d_%H:%M:%S")
@@ -94,20 +116,37 @@ def save_images_for_date(sunset_time, num_frames, output_dir):
     )
 
 
-def store_sunset_images_in_range(start_date, end_date, num_frames, output_dir):
+def store_sunset_images_in_range(
+    start_date, end_date, num_frames, output_dir, OVERWRITE=False
+):
     curr_date = start_date
 
     while curr_date <= end_date:
 
-        sunset_time = get_sunset_time(curr_date)
+        sunset_time = get_sunset_time(
+            curr_date, lat=SQUAMISH_COORDS[0], lon=SQUAMISH_COORDS[1]
+        )
 
-        save_images_for_date(sunset_time, num_frames, output_dir)
+        # Check if image with this timestamp already in frames folder
+        # Subtract 1 minute to match the stream which is 1 minute behind (starts at 23:59) each day.
+        rounded_sunset_time = round_datetime_to_minute(sunset_time) - timedelta(
+            minutes=1
+        )
+        formatted_time = rounded_sunset_time.strftime("%Y-%m-%d_%H:%M:%S")
+        image_path = os.path.join(output_dir, f"time_{formatted_time}.jpg")
+
+        # If image doesn't already exist, then save the frame.
+        if not os.path.exists(image_path) or OVERWRITE:
+            print(f"----Saving frame for {formatted_time}----")
+            save_images_for_date(sunset_time, num_frames, output_dir)
+        else:
+            print(f"----Skipping frame for {formatted_time} as it already exists ----")
 
         curr_date += timedelta(days=1)
 
 
 if __name__ == "__main__":
-    start = datetime(2023, 11, 8)
-    end = datetime(2023, 11, 15)
+    start = datetime(2018, 1, 13)
+    end = datetime(2023, 12, 31)
 
-    store_sunset_images_in_range(start, end, num_frames=3, output_dir="frames/")
+    store_sunset_images_in_range(start, end, num_frames=1, output_dir="frames/")

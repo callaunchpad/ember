@@ -1,5 +1,7 @@
 import json
 import datetime
+import requests
+from datetime import datetime, timedelta, time, date
 
 
 # Updates json with new image dict. If image already in data.json, it's not added again.
@@ -33,8 +35,30 @@ def round_datetime_to_minute(time):
 
     # Round to the nearest minute
     if time.second >= 30:
-        time = time + datetime.timedelta(minutes=1)
+        time = time + timedelta(minutes=1)
 
     time = time.replace(second=0)
 
     return time
+
+
+# day_obj specifies the year-month-day
+def get_sunset_time(day_obj, lat, lon):
+    r = requests.get(
+        "https://api.sunrisesunset.io/json",
+        params={
+            "lat": lat,
+            "lng": lon,
+            "date": day_obj,
+            "timezone": "PST",
+        },
+    ).json()
+    sunset = r["results"]["sunset"]
+
+    # Convert date format to our format
+    time_obj = datetime.strptime(sunset, "%I:%M:%S %p").time()
+    date_obj = date(day_obj.year, day_obj.month, day_obj.day)
+
+    datetime_obj = datetime.combine(date_obj, time_obj)
+    # formatted_datetime = datetime_obj.strftime("%Y-%m-%d %H:%M:%S")
+    return datetime_obj
