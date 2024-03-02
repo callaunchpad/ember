@@ -13,10 +13,11 @@ from torch.nn import (
 
 
 class RatingsModel(Module):
-    def __init__(self, linear_layers, conv_layers, config):
+    def __init__(self, linear_layers, config):
         super().__init__()
 
         self.linear_layers = linear_layers
+        self.config = config
 
     # Run x through each layer
     def forward(self, x):
@@ -25,3 +26,8 @@ class RatingsModel(Module):
         TODO: Add the code to propagate the input through the linear layers!
 
         """
+
+        for layer in self.linear_layers:
+            x = layer(x)
+
+        return x

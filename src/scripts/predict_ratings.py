@@ -20,6 +20,7 @@ from torch.nn import (
     Dropout,
     DataParallel,
     BatchNorm2d,
+    Softmax,
 )
 
 
@@ -68,7 +69,6 @@ config = {
     # "SHOW_IMAGES": True,
     "NORMALIZE": False,
     # ------------------- #
-    "DEPTH": 18,  # 180 / compton_bin_size
     "train_pct": 0.95,
     "val_pct": 0.04,
     "BATCH_SIZE": 16,
@@ -89,5 +89,32 @@ config = {
     # "IMAGES_SAVE_INTERVAL": 10,
     # # ------------------- #
 }
+
+
+# Define layers for our model
+layers = Sequential(
+    Linear(len(config["INPUT_FEATURES"]), 32),
+    ReLU(),
+    Linear(32, 64),
+    ReLU(),
+    Linear(64, 16),
+    ReLU(),
+    Linear(16, 5),
+    Softmax(),
+)
+
+# Create Model
+ratings_model = RatingsModel(layers, config)
+
+# Compile model
+ratings_model = ratings_model.to(dtype=config["base"], device=config["device"])
+
+
+criterion = ...
+optimizer = ...
+scheduler = ...
+
+trainer = ...
+
 
 print("Starting Training.")
