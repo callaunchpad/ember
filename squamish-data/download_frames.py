@@ -24,6 +24,9 @@ Frames that don't exist: 10/9/18
 
 one that was just pure nighttime and time was way off - check for obvious nighttime'
 
+daylight savings on november 3 2019... i think website time doesn't acct for daylight savings
+maybe ignore days where daylight savings is there. don't rate those ig. or have script to comment specific days.
+
 """
 
 
