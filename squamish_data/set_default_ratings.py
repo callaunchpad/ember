@@ -15,7 +15,7 @@ def set_default_ratings(path, attribute="default_rating"):
     for filename in image_dict:
         sunset_attributes = image_dict[filename]
 
-        sunset_attributes[attribute] = 4
+        sunset_attributes[attribute] = [0, 0, 0, 1, 0]
 
     update_json(image_dict, OVERWRITE_EXISTING=True)
 

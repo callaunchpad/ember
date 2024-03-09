@@ -13,10 +13,10 @@ from torch.nn import (
 
 
 class RatingsModel(Module):
-    def __init__(self, linear_layers, config):
+    def __init__(self, layers, config):
         super().__init__()
 
-        self.linear_layers = linear_layers
+        self.layers = layers
         self.config = config
 
     # Run x through each layer
@@ -27,7 +27,7 @@ class RatingsModel(Module):
 
         """
 
-        for layer in self.linear_layers:
+        for layer in self.layers:
             x = layer(x)
 
         return x

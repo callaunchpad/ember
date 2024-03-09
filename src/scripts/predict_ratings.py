@@ -77,8 +77,8 @@ config = {
     # "SHOW_IMAGES": True,
     "NORMALIZE": False,
     # ------------------- #
-    "train_pct": 0.95,
-    "val_pct": 0.04,
+    "train_pct": 0.90,
+    "val_pct": 0.05,
     "BATCH_SIZE": 16,
     # ------------------- #
     "EPOCHS": 500,
@@ -99,19 +99,27 @@ config = {
 }
 
 # Create the RatingsDataset
-dataset = ...
+dataset = RatingsDataset(config)
+
+# Create data loaders
+
+train_loader, val_loader, test_loader = split_dataset(
+    dataset, config["train_pct"], config["val_pct"], config["BATCH_SIZE"], shuffle=True
+)
 
 
 # Define layers for our model
 layers = Sequential(
-    Linear(len(config["INPUT_FEATURES"]), 32),
-    ReLU(),
-    Linear(32, 64),
-    ReLU(),
-    Linear(64, 16),
-    ReLU(),
-    Linear(16, 5),
-    Softmax(),
+    # Linear(len(config["INPUT_FEATURES"]), 32),
+    # ReLU(),
+    # Linear(32, 64),
+    # ReLU(),
+    # Linear(64, 16),
+    # ReLU(),
+    # Linear(16, 5),
+    Linear(len(config["INPUT_FEATURES"]), 5),
+    # ReLU(),
+    # Softmax(),
 )
 
 # Create Model
@@ -120,12 +128,27 @@ ratings_model = RatingsModel(layers, config)
 # Compile model
 ratings_model = ratings_model.to(dtype=config["base"], device=config["device"])
 
+# Error function
+criterion = MSELoss().to(dtype=config["base"], device=config["device"])
 
-criterion = ...
-optimizer = ...
-scheduler = ...
+# Optimizer updates the weights
+optimizer = optim.Adam(params=ratings_model.parameters(), lr=config["LEARNING_RATE"])
 
-trainer = ...
+# Scheduler adjusts the learning rate based on the error
+scheduler = ReduceLROnPlateau(
+    optimizer,
+    factor=config["LR_ADAPT_FACTOR"],
+    patience=config["LR_PATIENCE"],
+    verbose=True,
+)
+
+trainer = RatingsTrainer(
+    ratings_model, criterion, optimizer, scheduler, config, train_loader, val_loader
+)
 
 
 print("Starting Training.")
+
+
+# Start training
+trainer.train()

@@ -66,11 +66,16 @@ class RatingsTrainer:
         running_loss = 0.0
 
         for x, y in self.train_loader:  # x is data, y is label
+            torch.cuda.empty_cache()
+
             # Zero the gradients
             self.optimizer.zero_grad()
 
             # Get outputs
             outputs = self.model(x)
+
+            # print("---> inputs: ", x)
+            # print("---> outputs: ", outputs)
 
             # Calculate loss
             curr_loss = self.criterion(outputs, y)
@@ -90,7 +95,7 @@ class RatingsTrainer:
 
     def train(self):
         # Initialize wandb
-        self.init_wandb()
+        # self.init_wandb()
 
         EPOCHS = self.config["EPOCHS"]
         curr_epoch = 0
@@ -100,6 +105,8 @@ class RatingsTrainer:
             curr_loss = self.train_epoch()
 
             val_loss = self.validate()
+
+            print(f"Train error: {curr_loss} Val Loss: {val_loss}")
 
             # Empty cache
             torch.cuda.empty_cache()

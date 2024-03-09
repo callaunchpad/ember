@@ -4,4 +4,6 @@ squamish_data/frames/*
 .DS_Store
 *.pyc
 .env
-__pycache__
+__pycache__/*
+.log
+src/scripts/wandb
