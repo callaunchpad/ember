@@ -12,7 +12,7 @@ from utils import normalize
 
 
 class RatingsDataset(Dataset):
-    """Dataset for the full simulations of healpix data."""
+    """Dataset class for sunset data."""
 
     def __init__(self, config):
         self.input_features = config["INPUT_FEATURES"]
