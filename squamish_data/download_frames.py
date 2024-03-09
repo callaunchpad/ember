@@ -5,9 +5,7 @@ import json
 import cv2
 import sys
 
-from utils import update_json
-from utils import get_sunset_time
-from utils import round_datetime_to_minute
+from squamish_utils import update_json, get_sunset_time, round_datetime_to_minute
 
 date_obj_format = "%Y-%m-%d %H:%M:%S"
 SQUAMISH_COORDS = (

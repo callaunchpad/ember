@@ -1,6 +1,7 @@
 env/
-squamish-data/frames/*
+squamish_data/frames/*
 *.jpg
 .DS_Store
 *.pyc
 .env
+__pycache__

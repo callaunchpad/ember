@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 import json
-from utils import update_json
+from squamish_utils import update_json
 from dotenv import load_dotenv
 import os
 

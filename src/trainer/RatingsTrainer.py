@@ -5,7 +5,7 @@ import wandb
 import numpy as np
 
 
-class Trainer:
+class RatingsTrainer:
     def __init__(
         self, model, criterion, optimizer, scheduler, config, train_loader, val_loader
     ):

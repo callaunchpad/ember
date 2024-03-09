@@ -1,6 +1,14 @@
 # # %%
 
 import sys
+
+# append the path of the parent directory
+sys.path.append("../dataset")
+sys.path.append("../trainer")
+sys.path.append("../scripts")
+sys.path.append("../utils")
+sys.path.append("../model")
+
 import torch
 
 import pickle
@@ -29,12 +37,12 @@ import torch.optim as optim
 
 from torch.nn import MSELoss
 
-from trainer import RatingsTrainer
-from model import RatingsModel
-from dataset import RatingsDataset
+from RatingsTrainer import RatingsTrainer
+from RatingsModel import RatingsModel
+from RatingsDataset import RatingsDataset
 
 # Add utils directory to list of directories to search through
-from utils import get_device, set_seed, make_dir, save_img, split_dataset
+from utils import get_device, set_seed, make_dir, split_dataset
 
 
 set_seed(2023)
@@ -48,7 +56,7 @@ set_seed(2023)
 config = {
     "PROJECT": "ember_predict_ratings",
     # ------------------- #
-    "INPUT_DIR": "../../squamish-data/data.json",
+    "INPUT_DIR": "../../squamish_data/data.json",
     "INPUT_FEATURES": [
         "temp",
         "humidity",
@@ -57,8 +65,8 @@ config = {
         "precipprob",
         "snow",
         "snowdepth",
-        "preciptype",
-        "windgust",
+        # "preciptype",
+        # "windgust",
         "windspeed",
         "pressure",
         "cloudcover",
@@ -89,6 +97,9 @@ config = {
     # "IMAGES_SAVE_INTERVAL": 10,
     # # ------------------- #
 }
+
+# Create the RatingsDataset
+dataset = ...
 
 
 # Define layers for our model
