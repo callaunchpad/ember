@@ -6507,7 +6507,7 @@
     "overall_day_visibility": 8.8,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2023-11-20_16:26:00.jpg": {
     "temp": 43.3,
@@ -6570,7 +6570,7 @@
     "overall_day_visibility": 9.0,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2023-11-23_16:23:00.jpg": {
     "temp": 40.3,
@@ -8081,27 +8081,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
-  },
-  "frames/time_2018-02-18_17:35:00.jpg": {
-    "temp": 30.1,
-    "humidity": 32.1,
-    "dew": 3.8,
-    "precip": 0.0,
-    "precipprob": 0.0,
-    "snow": 0.0,
-    "snowdepth": 0.0,
-    "preciptype": null,
-    "windgust": 32.0,
-    "windspeed": 16.6,
-    "pressure": 1016.9,
-    "cloudcover": 27.8,
-    "solarradiation": 49.0,
-    "solarenergy": 0.2,
-    "conditions": "Partially cloudy",
-    "overall_day_visibility": null,
-    "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-02-19_17:37:00.jpg": {
     "temp": 31.9,
@@ -8121,7 +8102,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-02-20_17:38:00.jpg": {
     "temp": 32.8,
@@ -8141,7 +8123,8 @@
     "conditions": "Clear",
     "overall_day_visibility": 19.9,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-02-21_17:40:00.jpg": {
     "temp": 28.9,
@@ -8161,7 +8144,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": 19.9,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-02-22_17:42:00.jpg": {
     "temp": 35.3,
@@ -8181,7 +8165,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-02-23_17:43:00.jpg": {
     "temp": 29.9,
@@ -8201,7 +8186,8 @@
     "conditions": "Snow, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-02-24_17:45:00.jpg": {
     "temp": 35.4,
@@ -8221,7 +8207,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-02-25_17:47:00.jpg": {
     "temp": 36.0,
@@ -8241,7 +8228,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-02-26_17:48:00.jpg": {
     "temp": 37.5,
@@ -8261,7 +8249,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-02-27_17:50:00.jpg": {
     "temp": 39.6,
@@ -8281,7 +8270,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-02-28_17:52:00.jpg": {
     "temp": 34.9,
@@ -8301,7 +8291,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-02_17:55:00.jpg": {
     "temp": 38.8,
@@ -8321,7 +8312,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-03_17:57:00.jpg": {
     "temp": 42.8,
@@ -8341,7 +8333,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-03-04_17:58:00.jpg": {
     "temp": 42.3,
@@ -8361,7 +8354,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-05_18:00:00.jpg": {
     "temp": 39.3,
@@ -8381,7 +8375,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-06_18:02:00.jpg": {
     "temp": 39.4,
@@ -8401,7 +8396,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-03-07_18:03:00.jpg": {
     "temp": 43.8,
@@ -8421,7 +8417,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-08_18:05:00.jpg": {
     "temp": 41.6,
@@ -8441,7 +8438,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-09_18:06:00.jpg": {
     "temp": 38.2,
@@ -8461,7 +8459,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-03-10_18:08:00.jpg": {
     "temp": 42.1,
@@ -8481,7 +8480,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-03-11_18:10:00.jpg": {
     "temp": 52.9,
@@ -8501,7 +8501,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-03-12_19:11:00.jpg": {
     "temp": 58.0,
@@ -8521,7 +8522,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-03-13_19:13:00.jpg": {
     "temp": 45.5,
@@ -8541,7 +8543,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-14_19:14:00.jpg": {
     "temp": 46.3,
@@ -8561,7 +8564,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-15_19:16:00.jpg": {
     "temp": 46.2,
@@ -8581,7 +8585,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-03-16_19:17:00.jpg": {
     "temp": 48.3,
@@ -8601,7 +8606,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-03-17_19:19:00.jpg": {
     "temp": 48.2,
@@ -8621,7 +8627,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-18_19:21:00.jpg": {
     "temp": 47.3,
@@ -8641,7 +8648,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-03-19_19:22:00.jpg": {
     "temp": 45.7,
@@ -8661,7 +8669,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-20_19:24:00.jpg": {
     "temp": 46.6,
@@ -8681,7 +8690,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-21_19:25:00.jpg": {
     "temp": 50.1,
@@ -8701,7 +8711,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-22_19:27:00.jpg": {
     "temp": 40.2,
@@ -8721,7 +8732,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-23_19:28:00.jpg": {
     "temp": 39.0,
@@ -8741,7 +8753,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-24_19:30:00.jpg": {
     "temp": 40.1,
@@ -8761,7 +8774,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-25_19:31:00.jpg": {
     "temp": 43.0,
@@ -8781,7 +8795,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-26_19:33:00.jpg": {
     "temp": 41.2,
@@ -8801,7 +8816,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-27_19:35:00.jpg": {
     "temp": 47.9,
@@ -8821,27 +8837,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
-  },
-  "frames/time_2018-03-28_19:36:00.jpg": {
-    "temp": 48.2,
-    "humidity": 57.4,
-    "dew": 33.8,
-    "precip": 0.0,
-    "precipprob": 0.0,
-    "snow": 0.0,
-    "snowdepth": 0.0,
-    "preciptype": null,
-    "windgust": 20.8,
-    "windspeed": 4.9,
-    "pressure": 1027.0,
-    "cloudcover": 70.5,
-    "solarradiation": 40.0,
-    "solarenergy": 0.1,
-    "conditions": "Partially cloudy",
-    "overall_day_visibility": null,
-    "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-29_19:38:00.jpg": {
     "temp": 43.8,
@@ -8861,7 +8858,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-03-30_19:39:00.jpg": {
     "temp": 49.7,
@@ -8881,7 +8879,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-03-31_19:41:00.jpg": {
     "temp": 50.8,
@@ -8901,7 +8900,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-02_19:44:00.jpg": {
     "temp": 46.5,
@@ -8921,7 +8921,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-03_19:45:00.jpg": {
     "temp": 44.8,
@@ -8941,7 +8942,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-04_19:47:00.jpg": {
     "temp": 43.6,
@@ -8961,7 +8963,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-05_19:48:00.jpg": {
     "temp": 45.7,
@@ -8981,7 +8984,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-06_19:50:00.jpg": {
     "temp": 55.0,
@@ -9001,7 +9005,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-07_19:51:00.jpg": {
     "temp": 47.4,
@@ -9021,7 +9026,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-08_19:53:00.jpg": {
     "temp": 51.9,
@@ -9041,7 +9047,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-09_19:55:00.jpg": {
     "temp": 54.9,
@@ -9061,7 +9068,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-10_19:56:00.jpg": {
     "temp": 51.0,
@@ -9081,7 +9089,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-11_19:58:00.jpg": {
     "temp": 41.9,
@@ -9101,7 +9110,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-12_19:59:00.jpg": {
     "temp": 47.1,
@@ -9121,7 +9131,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-13_20:01:00.jpg": {
     "temp": 47.8,
@@ -9141,7 +9152,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-14_20:02:00.jpg": {
     "temp": 47.5,
@@ -9161,7 +9173,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-15_20:04:00.jpg": {
     "temp": 48.7,
@@ -9181,7 +9194,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-16_20:05:00.jpg": {
     "temp": 44.9,
@@ -9201,7 +9215,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-17_20:07:00.jpg": {
     "temp": 45.9,
@@ -9221,7 +9236,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-18_20:08:00.jpg": {
     "temp": 48.5,
@@ -9241,7 +9257,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-04-19_20:10:00.jpg": {
     "temp": 53.3,
@@ -9261,7 +9278,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-20_20:12:00.jpg": {
     "temp": 46.0,
@@ -9281,7 +9299,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-21_20:13:00.jpg": {
     "temp": 49.5,
@@ -9301,7 +9320,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-22_20:15:00.jpg": {
     "temp": 50.8,
@@ -9321,7 +9341,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-04-23_20:16:00.jpg": {
     "temp": 55.9,
@@ -9341,7 +9362,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-24_20:18:00.jpg": {
     "temp": 60.4,
@@ -9361,7 +9383,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-04-25_20:19:00.jpg": {
     "temp": 62.1,
@@ -9381,7 +9404,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-04-26_20:21:00.jpg": {
     "temp": 64.5,
@@ -9401,7 +9425,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-04-27_20:22:00.jpg": {
     "temp": 59.2,
@@ -9421,7 +9446,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-28_20:24:00.jpg": {
     "temp": 48.3,
@@ -9441,7 +9467,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-29_20:25:00.jpg": {
     "temp": 51.3,
@@ -9461,7 +9488,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-04-30_20:27:00.jpg": {
     "temp": 54.0,
@@ -9481,7 +9509,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-02_20:30:00.jpg": {
     "temp": 58.2,
@@ -9501,7 +9530,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-03_20:32:00.jpg": {
     "temp": 63.6,
@@ -9521,7 +9551,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-04_20:33:00.jpg": {
     "temp": 56.4,
@@ -9541,7 +9572,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-05_20:35:00.jpg": {
     "temp": 62.9,
@@ -9561,7 +9593,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-06_20:36:00.jpg": {
     "temp": 67.2,
@@ -9581,7 +9614,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-05-07_20:38:00.jpg": {
     "temp": 61.9,
@@ -9601,7 +9635,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-08_20:39:00.jpg": {
     "temp": 64.6,
@@ -9621,7 +9656,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-09_20:41:00.jpg": {
     "temp": 58.5,
@@ -9641,7 +9677,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-10_20:42:00.jpg": {
     "temp": 56.1,
@@ -9661,7 +9698,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-11_20:44:00.jpg": {
     "temp": 61.1,
@@ -9681,7 +9719,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-05-12_20:45:00.jpg": {
     "temp": 64.9,
@@ -9701,7 +9740,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-13_20:47:00.jpg": {
     "temp": 72.0,
@@ -9721,7 +9761,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-14_20:48:00.jpg": {
     "temp": 71.4,
@@ -9741,7 +9782,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-15_20:49:00.jpg": {
     "temp": 67.2,
@@ -9761,7 +9803,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-16_20:51:00.jpg": {
     "temp": 61.7,
@@ -9781,7 +9824,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-17_20:52:00.jpg": {
     "temp": 60.9,
@@ -9801,7 +9845,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-18_20:54:00.jpg": {
     "temp": 60.5,
@@ -9821,7 +9866,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-19_20:55:00.jpg": {
     "temp": 61.3,
@@ -9841,7 +9887,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-20_20:56:00.jpg": {
     "temp": 60.3,
@@ -9861,7 +9908,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-21_20:58:00.jpg": {
     "temp": 63.2,
@@ -9881,7 +9929,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-22_20:59:00.jpg": {
     "temp": 68.0,
@@ -9901,7 +9950,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-23_21:00:00.jpg": {
     "temp": 68.6,
@@ -9921,7 +9971,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-24_21:01:00.jpg": {
     "temp": 62.1,
@@ -9941,7 +9992,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-25_21:03:00.jpg": {
     "temp": 59.6,
@@ -9961,7 +10013,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-05-26_21:04:00.jpg": {
     "temp": 61.1,
@@ -9981,7 +10034,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-27_21:05:00.jpg": {
     "temp": 63.8,
@@ -10001,7 +10055,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-05-28_21:06:00.jpg": {
     "temp": 61.2,
@@ -10021,7 +10076,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-29_21:07:00.jpg": {
     "temp": 57.0,
@@ -10041,7 +10097,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-30_21:09:00.jpg": {
     "temp": 55.3,
@@ -10061,7 +10118,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-05-31_21:10:00.jpg": {
     "temp": 58.7,
@@ -10081,7 +10139,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-02_21:12:00.jpg": {
     "temp": 59.9,
@@ -10101,7 +10160,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-06-03_21:13:00.jpg": {
     "temp": 56.6,
@@ -10121,7 +10181,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-04_21:14:00.jpg": {
     "temp": 54.1,
@@ -10141,7 +10202,8 @@
     "conditions": "Clear",
     "overall_day_visibility": 29.4,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-05_21:15:00.jpg": {
     "temp": 51.1,
@@ -10161,7 +10223,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-06_21:15:00.jpg": {
     "temp": 62.2,
@@ -10181,7 +10244,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-07_21:16:00.jpg": {
     "temp": 56.9,
@@ -10201,7 +10265,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-08_21:17:00.jpg": {
     "temp": 51.8,
@@ -10221,7 +10286,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-09_21:18:00.jpg": {
     "temp": 50.1,
@@ -10241,7 +10307,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-10_21:19:00.jpg": {
     "temp": 49.8,
@@ -10261,7 +10328,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-06-11_21:19:00.jpg": {
     "temp": 53.9,
@@ -10281,7 +10349,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-06-12_21:20:00.jpg": {
     "temp": 54.3,
@@ -10301,7 +10370,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-13_21:21:00.jpg": {
     "temp": 55.0,
@@ -10321,7 +10391,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-14_21:21:00.jpg": {
     "temp": 58.6,
@@ -10341,7 +10412,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-15_21:22:00.jpg": {
     "temp": 64.0,
@@ -10361,7 +10433,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-06-16_21:22:00.jpg": {
     "temp": 67.0,
@@ -10381,7 +10454,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-06-17_21:23:00.jpg": {
     "temp": 69.8,
@@ -10401,7 +10475,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-06-18_21:23:00.jpg": {
     "temp": 73.1,
@@ -10421,27 +10496,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
-  },
-  "frames/time_2018-06-19_21:23:00.jpg": {
-    "temp": 70.5,
-    "humidity": 59.0,
-    "dew": 55.5,
-    "precip": 0.0,
-    "precipprob": 0.0,
-    "snow": 0.0,
-    "snowdepth": 0.0,
-    "preciptype": null,
-    "windgust": null,
-    "windspeed": 4.5,
-    "pressure": 1013.9,
-    "cloudcover": 2.0,
-    "solarradiation": 14.0,
-    "solarenergy": 0.1,
-    "conditions": "Clear",
-    "overall_day_visibility": null,
-    "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-06-20_21:24:00.jpg": {
     "temp": 73.4,
@@ -10461,7 +10517,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-06-21_21:24:00.jpg": {
     "temp": 65.5,
@@ -10481,7 +10538,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-06-22_21:24:00.jpg": {
     "temp": 61.3,
@@ -10501,7 +10559,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-23_21:24:00.jpg": {
     "temp": 64.6,
@@ -10521,7 +10580,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-06-24_21:25:00.jpg": {
     "temp": 59.5,
@@ -10541,27 +10601,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
-  },
-  "frames/time_2018-06-25_21:25:00.jpg": {
-    "temp": 56.5,
-    "humidity": 87.3,
-    "dew": 52.8,
-    "precip": 0.0,
-    "precipprob": 0.0,
-    "snow": 0.0,
-    "snowdepth": 0.0,
-    "preciptype": null,
-    "windgust": null,
-    "windspeed": 1.4,
-    "pressure": 1018.4,
-    "cloudcover": 9.1,
-    "solarradiation": 16.0,
-    "solarenergy": 0.1,
-    "conditions": "Clear",
-    "overall_day_visibility": null,
-    "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-26_21:25:00.jpg": {
     "temp": 57.8,
@@ -10581,7 +10622,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-27_21:25:00.jpg": {
     "temp": 59.9,
@@ -10601,7 +10643,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-28_21:25:00.jpg": {
     "temp": 60.3,
@@ -10621,7 +10664,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-29_21:25:00.jpg": {
     "temp": 59.5,
@@ -10641,7 +10685,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-06-30_21:24:00.jpg": {
     "temp": 60.3,
@@ -10661,7 +10706,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-02_21:24:00.jpg": {
     "temp": 62.6,
@@ -10681,7 +10727,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-07-03_21:24:00.jpg": {
     "temp": 62.5,
@@ -10701,7 +10748,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-04_21:23:00.jpg": {
     "temp": 74.1,
@@ -10721,7 +10769,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-05_21:23:00.jpg": {
     "temp": 73.4,
@@ -10741,7 +10790,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-06_21:22:00.jpg": {
     "temp": 60.7,
@@ -10761,7 +10811,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-07_21:22:00.jpg": {
     "temp": 62.9,
@@ -10781,7 +10832,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-08_21:21:00.jpg": {
     "temp": 65.6,
@@ -10801,7 +10853,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-09_21:21:00.jpg": {
     "temp": 62.3,
@@ -10821,7 +10874,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-10_21:20:00.jpg": {
     "temp": 61.1,
@@ -10841,7 +10895,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-07-11_21:20:00.jpg": {
     "temp": 67.9,
@@ -10861,7 +10916,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-07-12_21:19:00.jpg": {
     "temp": 70.7,
@@ -10881,7 +10937,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-07-13_21:18:00.jpg": {
     "temp": 70.3,
@@ -10901,7 +10958,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-14_21:17:00.jpg": {
     "temp": 70.0,
@@ -10921,7 +10979,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-15_21:16:00.jpg": {
     "temp": 71.3,
@@ -10941,7 +11000,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-16_21:16:00.jpg": {
     "temp": 71.5,
@@ -10961,7 +11021,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-17_21:15:00.jpg": {
     "temp": 72.3,
@@ -10981,7 +11042,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-18_21:14:00.jpg": {
     "temp": 69.2,
@@ -11001,7 +11063,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-07-19_21:13:00.jpg": {
     "temp": 64.2,
@@ -11021,7 +11084,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-20_21:12:00.jpg": {
     "temp": 60.8,
@@ -11041,7 +11105,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-21_21:11:00.jpg": {
     "temp": 67.3,
@@ -11061,7 +11126,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-07-22_21:09:00.jpg": {
     "temp": 70.7,
@@ -11081,7 +11147,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-23_21:08:00.jpg": {
     "temp": 72.0,
@@ -11101,7 +11168,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-24_21:07:00.jpg": {
     "temp": 73.3,
@@ -11121,7 +11189,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-07-25_21:06:00.jpg": {
     "temp": 75.4,
@@ -11141,7 +11210,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-07-26_21:05:00.jpg": {
     "temp": 73.3,
@@ -11161,7 +11231,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-27_21:03:00.jpg": {
     "temp": 71.4,
@@ -11181,7 +11252,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-28_21:02:00.jpg": {
     "temp": 72.4,
@@ -11201,7 +11273,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-29_21:01:00.jpg": {
     "temp": 74.0,
@@ -11221,7 +11294,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-30_20:59:00.jpg": {
     "temp": 79.2,
@@ -11241,7 +11315,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-07-31_20:58:00.jpg": {
     "temp": 75.2,
@@ -11261,7 +11336,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-02_20:55:00.jpg": {
     "temp": 67.4,
@@ -11281,7 +11357,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-03_20:53:00.jpg": {
     "temp": 67.8,
@@ -11301,7 +11378,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-04_20:52:00.jpg": {
     "temp": 73.2,
@@ -11321,7 +11399,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-08-05_20:50:00.jpg": {
     "temp": 75.3,
@@ -11341,7 +11420,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-06_20:49:00.jpg": {
     "temp": 76.0,
@@ -11361,7 +11441,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-08-07_20:47:00.jpg": {
     "temp": 76.2,
@@ -11381,7 +11462,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-08-08_20:45:00.jpg": {
     "temp": 79.5,
@@ -11401,7 +11483,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-09_20:44:00.jpg": {
     "temp": 77.6,
@@ -11421,7 +11504,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-10_20:42:00.jpg": {
     "temp": 78.4,
@@ -11441,7 +11525,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-08-11_20:40:00.jpg": {
     "temp": 63.5,
@@ -11461,7 +11546,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-12_20:39:00.jpg": {
     "temp": 66.0,
@@ -11481,7 +11567,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-13_20:37:00.jpg": {
     "temp": 67.8,
@@ -11501,7 +11588,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-14_20:35:00.jpg": {
     "temp": 69.3,
@@ -11521,7 +11609,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-15_20:33:00.jpg": {
     "temp": 71.9,
@@ -11541,7 +11630,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-16_20:31:00.jpg": {
     "temp": 70.6,
@@ -11561,7 +11651,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-17_20:29:00.jpg": {
     "temp": 67.2,
@@ -11581,7 +11672,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-08-18_20:28:00.jpg": {
     "temp": 66.3,
@@ -11601,7 +11693,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-19_20:26:00.jpg": {
     "temp": 65.3,
@@ -11621,7 +11714,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-20_20:24:00.jpg": {
     "temp": 74.0,
@@ -11641,7 +11735,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-21_20:22:00.jpg": {
     "temp": 72.1,
@@ -11661,7 +11756,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-22_20:20:00.jpg": {
     "temp": 69.7,
@@ -11681,7 +11777,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-23_20:18:00.jpg": {
     "temp": 62.4,
@@ -11701,7 +11798,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-24_20:16:00.jpg": {
     "temp": 64.3,
@@ -11721,7 +11819,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-25_20:14:00.jpg": {
     "temp": 58.6,
@@ -11741,7 +11840,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-26_20:12:00.jpg": {
     "temp": 59.1,
@@ -11761,7 +11861,8 @@
     "conditions": "Rain",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-27_20:10:00.jpg": {
     "temp": 64.0,
@@ -11781,7 +11882,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-08-28_20:08:00.jpg": {
     "temp": 65.3,
@@ -11801,7 +11903,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-08-29_20:06:00.jpg": {
     "temp": 59.8,
@@ -11821,7 +11924,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-08-30_20:04:00.jpg": {
     "temp": 62.7,
@@ -11841,7 +11945,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-08-31_20:02:00.jpg": {
     "temp": 64.2,
@@ -11861,7 +11966,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-02_19:57:00.jpg": {
     "temp": 67.1,
@@ -11881,7 +11987,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-03_19:55:00.jpg": {
     "temp": 65.7,
@@ -11901,7 +12008,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-09-04_19:53:00.jpg": {
     "temp": 68.3,
@@ -11921,7 +12029,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-09-05_19:51:00.jpg": {
     "temp": 69.6,
@@ -11941,7 +12050,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-06_19:49:00.jpg": {
     "temp": 74.5,
@@ -11961,7 +12071,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-09-07_19:47:00.jpg": {
     "temp": 56.8,
@@ -11981,7 +12092,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-08_19:45:00.jpg": {
     "temp": 58.4,
@@ -12001,7 +12113,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-09_19:43:00.jpg": {
     "temp": 56.0,
@@ -12021,7 +12134,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-10_19:40:00.jpg": {
     "temp": 57.2,
@@ -12041,7 +12155,8 @@
     "conditions": "Rain",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-11_19:38:00.jpg": {
     "temp": 58.0,
@@ -12061,7 +12176,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-12_19:36:00.jpg": {
     "temp": 57.9,
@@ -12081,7 +12197,8 @@
     "conditions": "Rain",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-13_19:34:00.jpg": {
     "temp": 56.1,
@@ -12101,7 +12218,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-14_19:32:00.jpg": {
     "temp": 57.4,
@@ -12121,7 +12239,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-15_19:29:00.jpg": {
     "temp": 54.5,
@@ -12141,7 +12260,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": 11.8,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-16_19:27:00.jpg": {
     "temp": 52.5,
@@ -12161,7 +12281,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-17_19:25:00.jpg": {
     "temp": 53.7,
@@ -12181,7 +12302,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-09-18_19:23:00.jpg": {
     "temp": 54.6,
@@ -12201,7 +12323,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-19_19:21:00.jpg": {
     "temp": 58.2,
@@ -12221,7 +12344,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-20_19:18:00.jpg": {
     "temp": 53.4,
@@ -12241,7 +12365,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-21_19:16:00.jpg": {
     "temp": 50.8,
@@ -12261,7 +12386,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-22_19:14:00.jpg": {
     "temp": 56.2,
@@ -12281,7 +12407,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-23_19:12:00.jpg": {
     "temp": 53.3,
@@ -12301,7 +12428,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-24_19:10:00.jpg": {
     "temp": 53.3,
@@ -12321,7 +12449,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-09-25_19:07:00.jpg": {
     "temp": 55.6,
@@ -12341,7 +12470,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-09-26_19:05:00.jpg": {
     "temp": 57.3,
@@ -12361,7 +12491,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-09-27_19:03:00.jpg": {
     "temp": 61.1,
@@ -12381,7 +12512,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-09-28_19:01:00.jpg": {
     "temp": 59.5,
@@ -12401,7 +12533,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-09-29_18:59:00.jpg": {
     "temp": 60.2,
@@ -12421,7 +12554,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-09-30_18:56:00.jpg": {
     "temp": 49.2,
@@ -12441,7 +12575,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-02_18:52:00.jpg": {
     "temp": 46.9,
@@ -12461,7 +12596,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-10-03_18:50:00.jpg": {
     "temp": 47.8,
@@ -12481,7 +12617,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-10-04_18:48:00.jpg": {
     "temp": 47.8,
@@ -12501,7 +12638,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-10-05_18:46:00.jpg": {
     "temp": 49.7,
@@ -12521,7 +12659,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-10-06_18:43:00.jpg": {
     "temp": 54.0,
@@ -12541,7 +12680,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-07_18:41:00.jpg": {
     "temp": 51.2,
@@ -12561,7 +12701,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-08_18:39:00.jpg": {
     "temp": 52.6,
@@ -12581,7 +12722,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-10_18:35:00.jpg": {
     "temp": 55.0,
@@ -12601,7 +12743,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2018-10-11_18:33:00.jpg": {
     "temp": 53.6,
@@ -12621,7 +12764,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2018-10-12_18:31:00.jpg": {
     "temp": 51.7,
@@ -12641,7 +12785,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-10-13_18:29:00.jpg": {
     "temp": 51.7,
@@ -12661,7 +12806,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-10-14_18:27:00.jpg": {
     "temp": 49.2,
@@ -12681,7 +12827,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-10-15_18:25:00.jpg": {
     "temp": 52.8,
@@ -12701,7 +12848,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-10-16_18:23:00.jpg": {
     "temp": 54.8,
@@ -12721,7 +12869,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-10-17_18:21:00.jpg": {
     "temp": 54.8,
@@ -12741,7 +12890,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-10-18_18:19:00.jpg": {
     "temp": 52.9,
@@ -12761,7 +12911,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-10-19_18:17:00.jpg": {
     "temp": 52.6,
@@ -12781,7 +12932,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-10-20_18:15:00.jpg": {
     "temp": 51.4,
@@ -12801,7 +12953,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-10-21_18:13:00.jpg": {
     "temp": 53.6,
@@ -12821,7 +12974,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-10-22_18:11:00.jpg": {
     "temp": 51.4,
@@ -12841,7 +12995,8 @@
     "conditions": "Clear",
     "overall_day_visibility": 26.5,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-10-23_18:09:00.jpg": {
     "temp": 52.6,
@@ -12861,7 +13016,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": 14.9,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-24_18:07:00.jpg": {
     "temp": 54.6,
@@ -12881,7 +13037,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-25_18:05:00.jpg": {
     "temp": 52.2,
@@ -12901,7 +13058,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-26_18:03:00.jpg": {
     "temp": 53.5,
@@ -12921,7 +13079,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-10-27_18:01:00.jpg": {
     "temp": 49.4,
@@ -12941,7 +13100,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-28_18:00:00.jpg": {
     "temp": 48.3,
@@ -12961,7 +13121,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-29_17:58:00.jpg": {
     "temp": 48.7,
@@ -12981,7 +13142,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-30_17:56:00.jpg": {
     "temp": 49.0,
@@ -13001,7 +13163,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-10-31_17:54:00.jpg": {
     "temp": 49.7,
@@ -13021,7 +13184,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-02_17:51:00.jpg": {
     "temp": 54.2,
@@ -13041,7 +13205,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-03_17:49:00.jpg": {
     "temp": 50.3,
@@ -13061,7 +13226,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-04_17:48:00.jpg": {
     "temp": 50.5,
@@ -13081,7 +13247,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-05_16:46:00.jpg": {
     "temp": 50.0,
@@ -13101,7 +13268,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-06_16:44:00.jpg": {
     "temp": 48.9,
@@ -13121,7 +13289,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-07_16:43:00.jpg": {
     "temp": 41.8,
@@ -13141,7 +13310,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-11-08_16:41:00.jpg": {
     "temp": 41.3,
@@ -13161,7 +13331,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-11-09_16:40:00.jpg": {
     "temp": 41.9,
@@ -13181,7 +13352,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-10_16:38:00.jpg": {
     "temp": 41.7,
@@ -13201,7 +13373,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-11-11_16:37:00.jpg": {
     "temp": 42.2,
@@ -13221,7 +13394,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-11-12_16:36:00.jpg": {
     "temp": 46.1,
@@ -13241,7 +13415,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-11-13_16:34:00.jpg": {
     "temp": 43.4,
@@ -13261,7 +13436,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-14_16:33:00.jpg": {
     "temp": 45.4,
@@ -13281,7 +13457,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-15_16:32:00.jpg": {
     "temp": 48.3,
@@ -13301,7 +13478,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-16_16:30:00.jpg": {
     "temp": 47.5,
@@ -13321,7 +13499,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-11-17_16:29:00.jpg": {
     "temp": 40.2,
@@ -13341,7 +13520,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-11-18_16:28:00.jpg": {
     "temp": 39.6,
@@ -13361,7 +13541,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-11-19_16:27:00.jpg": {
     "temp": 41.1,
@@ -13381,7 +13562,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-11-20_16:26:00.jpg": {
     "temp": 44.9,
@@ -13401,7 +13583,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-21_16:25:00.jpg": {
     "temp": 44.0,
@@ -13421,7 +13604,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-22_16:24:00.jpg": {
     "temp": 43.8,
@@ -13441,7 +13625,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-23_16:23:00.jpg": {
     "temp": 42.6,
@@ -13461,7 +13646,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-24_16:22:00.jpg": {
     "temp": 41.5,
@@ -13481,7 +13667,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-25_16:21:00.jpg": {
     "temp": 41.8,
@@ -13501,7 +13688,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-26_16:20:00.jpg": {
     "temp": 42.4,
@@ -13521,7 +13709,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-27_16:19:00.jpg": {
     "temp": 47.5,
@@ -13541,7 +13730,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-28_16:18:00.jpg": {
     "temp": 44.4,
@@ -13561,7 +13751,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-29_16:18:00.jpg": {
     "temp": 41.4,
@@ -13581,7 +13772,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-11-30_16:17:00.jpg": {
     "temp": 40.7,
@@ -13601,7 +13793,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-02_16:16:00.jpg": {
     "temp": 34.5,
@@ -13621,7 +13814,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-12-03_16:15:00.jpg": {
     "temp": 36.2,
@@ -13641,7 +13835,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-12-04_16:15:00.jpg": {
     "temp": 32.8,
@@ -13661,7 +13856,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-12-05_16:14:00.jpg": {
     "temp": 39.6,
@@ -13681,7 +13877,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-12-06_16:14:00.jpg": {
     "temp": 31.0,
@@ -13701,7 +13898,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-12-07_16:13:00.jpg": {
     "temp": 31.7,
@@ -13721,7 +13919,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-12-08_16:13:00.jpg": {
     "temp": 36.5,
@@ -13741,7 +13940,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-09_16:13:00.jpg": {
     "temp": 37.7,
@@ -13761,7 +13961,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-10_16:13:00.jpg": {
     "temp": 40.7,
@@ -13781,7 +13982,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-11_16:13:00.jpg": {
     "temp": 38.5,
@@ -13801,7 +14003,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-12_16:13:00.jpg": {
     "temp": 40.9,
@@ -13821,7 +14024,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-13_16:13:00.jpg": {
     "temp": 38.7,
@@ -13841,7 +14045,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-14_16:13:00.jpg": {
     "temp": 41.5,
@@ -13861,7 +14066,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-15_16:13:00.jpg": {
     "temp": 39.2,
@@ -13881,7 +14087,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-16_16:13:00.jpg": {
     "temp": 38.7,
@@ -13901,7 +14108,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-17_16:13:00.jpg": {
     "temp": 46.3,
@@ -13921,7 +14129,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-18_16:13:00.jpg": {
     "temp": 44.1,
@@ -13941,7 +14150,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-19_16:13:00.jpg": {
     "temp": 44.6,
@@ -13961,7 +14171,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-20_16:14:00.jpg": {
     "temp": 46.7,
@@ -13981,7 +14192,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-21_16:14:00.jpg": {
     "temp": 36.1,
@@ -14001,7 +14213,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-12-22_16:15:00.jpg": {
     "temp": 33.7,
@@ -14021,7 +14234,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-23_16:15:00.jpg": {
     "temp": 34.7,
@@ -14041,7 +14255,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-24_16:16:00.jpg": {
     "temp": 36.7,
@@ -14061,7 +14276,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-25_16:16:00.jpg": {
     "temp": 32.8,
@@ -14081,7 +14297,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-26_16:17:00.jpg": {
     "temp": 33.0,
@@ -14101,7 +14318,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-27_16:17:00.jpg": {
     "temp": 30.2,
@@ -14121,7 +14339,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-28_16:18:00.jpg": {
     "temp": 32.7,
@@ -14141,7 +14360,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-29_16:19:00.jpg": {
     "temp": 40.6,
@@ -14161,7 +14381,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-12-30_16:20:00.jpg": {
     "temp": 35.8,
@@ -14181,7 +14402,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-12-31_16:21:00.jpg": {
     "temp": 34.0,
@@ -14201,7 +14423,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-02_16:23:00.jpg": {
     "temp": 32.8,
@@ -14221,7 +14444,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-03_16:24:00.jpg": {
     "temp": 36.0,
@@ -14241,7 +14465,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-04_16:25:00.jpg": {
     "temp": 41.6,
@@ -14261,7 +14486,8 @@
     "conditions": "Rain, Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-05_16:26:00.jpg": {
     "temp": 41.1,
@@ -14281,7 +14507,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-06_16:27:00.jpg": {
     "temp": 38.0,
@@ -14301,7 +14528,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-07_16:28:00.jpg": {
     "temp": 34.3,
@@ -14321,7 +14549,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-08_16:29:00.jpg": {
     "temp": 31.7,
@@ -14341,7 +14570,8 @@
     "conditions": "Snow, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-09_16:30:00.jpg": {
     "temp": 34.5,
@@ -14361,7 +14591,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-10_16:32:00.jpg": {
     "temp": 38.4,
@@ -14381,7 +14612,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-11_16:33:00.jpg": {
     "temp": 40.7,
@@ -14401,7 +14633,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2019-01-12_16:34:00.jpg": {
     "temp": 42.4,
@@ -14421,7 +14654,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-13_16:36:00.jpg": {
     "temp": 43.3,
@@ -14441,7 +14675,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-14_16:37:00.jpg": {
     "temp": 41.3,
@@ -14461,7 +14696,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-15_16:38:00.jpg": {
     "temp": 37.3,
@@ -14481,7 +14717,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-01-16_16:40:00.jpg": {
     "temp": 40.0,
@@ -14501,7 +14738,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-17_16:41:00.jpg": {
     "temp": 39.7,
@@ -14521,7 +14759,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-18_16:43:00.jpg": {
     "temp": 43.6,
@@ -14541,7 +14780,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-19_16:44:00.jpg": {
     "temp": 44.8,
@@ -14561,7 +14801,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-20_16:46:00.jpg": {
     "temp": 40.3,
@@ -14581,7 +14822,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-21_16:47:00.jpg": {
     "temp": 34.9,
@@ -14601,7 +14843,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-22_16:49:00.jpg": {
     "temp": 34.7,
@@ -14621,7 +14864,8 @@
     "conditions": "Rain, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-23_16:51:00.jpg": {
     "temp": 39.7,
@@ -14641,7 +14885,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-24_16:52:00.jpg": {
     "temp": 38.9,
@@ -14661,7 +14906,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-25_16:54:00.jpg": {
     "temp": 43.4,
@@ -14681,7 +14927,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-26_16:55:00.jpg": {
     "temp": 42.6,
@@ -14701,7 +14948,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-27_16:57:00.jpg": {
     "temp": 40.1,
@@ -14721,7 +14969,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-28_16:59:00.jpg": {
     "temp": 42.9,
@@ -14741,7 +14990,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-29_17:00:00.jpg": {
     "temp": 38.7,
@@ -14761,7 +15011,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-01-30_17:02:00.jpg": {
     "temp": 40.2,
@@ -14781,7 +15032,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-31_17:04:00.jpg": {
     "temp": 42.7,
@@ -14801,7 +15053,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-02-02_17:07:00.jpg": {
     "temp": 39.4,
@@ -14821,7 +15074,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-02-03_17:09:00.jpg": {
     "temp": 21.1,
@@ -14841,7 +15095,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-02-04_17:11:00.jpg": {
     "temp": 27.6,
@@ -14861,7 +15116,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-02-05_17:12:00.jpg": {
     "temp": 27.9,
@@ -14881,7 +15137,8 @@
     "conditions": "Clear",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-02-06_17:14:00.jpg": {
     "temp": 29.7,
@@ -14901,7 +15158,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-02-07_17:16:00.jpg": {
     "temp": 31.4,
@@ -14921,7 +15179,8 @@
     "conditions": "Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-02-08_17:17:00.jpg": {
     "temp": 33.0,
@@ -14941,27 +15200,8 @@
     "conditions": "Partially cloudy",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0]
-  },
-  "frames/time_2019-02-09_17:19:00.jpg": {
-    "temp": 34.7,
-    "humidity": 36.1,
-    "dew": 10.5,
-    "precip": 0.0,
-    "precipprob": 0.0,
-    "snow": 0.0,
-    "snowdepth": 0.0,
-    "preciptype": null,
-    "windgust": 52.8,
-    "windspeed": 15.2,
-    "pressure": 1009.7,
-    "cloudcover": 4.7,
-    "solarradiation": 30.0,
-    "solarenergy": 0.1,
-    "conditions": "Clear",
-    "overall_day_visibility": null,
-    "overall_day_preciptype": ["rain", "snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-02-10_17:21:00.jpg": {
     "temp": 23.9,
@@ -14981,7 +15221,8 @@
     "conditions": "Snow, Overcast",
     "overall_day_visibility": null,
     "overall_day_preciptype": ["snow"],
-    "default_rating": [0, 0, 0, 1, 0]
+    "default_rating": [0, 0, 0, 1, 0],
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-02-11_17:23:00.jpg": {
     "temp": 28.7,
