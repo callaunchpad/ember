@@ -88,6 +88,12 @@ class RatingsTrainer:
         # Initialize wandb
         self.init_wandb()
 
+        v_loss = self.validate()
+
+        # Print train and val loss before any training.
+        print(f"Before any training, Val Loss: {v_loss}")
+        print()
+
         EPOCHS = self.config["EPOCHS"]
         curr_epoch = 0
 
@@ -97,7 +103,7 @@ class RatingsTrainer:
 
             val_loss = self.validate()
 
-            print(f"Epoch: {curr_epoch} Train error: {curr_loss} Val Loss: {val_loss}")
+            print(f"Epoch: {curr_epoch} Train Loss: {curr_loss} Val Loss: {val_loss}")
 
             # Empty cache
             torch.cuda.empty_cache()
@@ -127,6 +133,8 @@ class RatingsTrainer:
         # Set model to validation mode to conserve memory - when in validation mode, gradient's arent calculated
         model.eval()
 
+        # Store predictions and truths across all the batches
+
         # Ensure no gradients involved
         with torch.no_grad():
             running_val_loss = 0.0
@@ -135,11 +143,24 @@ class RatingsTrainer:
                 # Calculate validation prediction
                 pred = model(x_val)
 
+                batch_list_pred = pred.tolist()
+                batch_list_truth = y_val.tolist()
+
+                for i in range(len(batch_list_pred)):
+                    list_pred, list_truth = batch_list_pred[i], batch_list_truth[i]
+                    pred_rating = list_pred.index(max(list_pred)) + 1
+                    truth_rating = list_truth.index(max(list_truth)) + 1
+
+                    # print(f"----> Prediction: {pred} Ground Truth: {y_val}")
+                    print(f"----> Prediction: {pred_rating} Truth: {truth_rating}")
+
                 # Calculate current validation loss
                 curr_loss = self.criterion(pred, y_val)
 
                 # Update running validation loss
                 running_val_loss += curr_loss.item() * pred.shape[0]
+
+            print()
 
         # Rever to training mode
         model.train()
