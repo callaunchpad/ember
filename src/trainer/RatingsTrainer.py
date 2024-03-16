@@ -124,6 +124,10 @@ class RatingsTrainer:
                 }
             )
 
+        # Create heatmap for both training loader
+        self.create_heatmap(self.train_loader, "train_heatmap")
+        self.create_heatmap(self.val_loader, "val_heatmap")
+
         pass
 
     def validate(self):
@@ -133,8 +137,6 @@ class RatingsTrainer:
         # Set model to validation mode to conserve memory - when in validation mode, gradient's arent calculated
         model.eval()
 
-        # Store predictions and truths across all the batches
-
         # Ensure no gradients involved
         with torch.no_grad():
             running_val_loss = 0.0
@@ -143,16 +145,49 @@ class RatingsTrainer:
                 # Calculate validation prediction
                 pred = model(x_val)
 
+                # Calculate current validation loss
+                curr_loss = self.criterion(pred, y_val)
+
+                # Update running validation loss
+                running_val_loss += curr_loss.item() * pred.shape[0]
+
+        # Revert to training mode
+        model.train()
+
+        # Return our validation loss
+        return running_val_loss
+
+    def create_heatmap(self, loader, heatmap_name):
+        model = self.model
+
+        # Set model to validation mode to conserve memory - when in validation mode, gradient's arent calculated
+        model.eval()
+
+        # Store predictions and truths across all the batches
+        total_pred = []
+        total_truth = []
+
+        # Ensure no gradients involved
+        with torch.no_grad():
+            running_val_loss = 0.0
+
+            for x_val, y_val in loader:
+                # Calculate validation prediction
+                pred = model(x_val)
+
                 batch_list_pred = pred.tolist()
                 batch_list_truth = y_val.tolist()
 
                 for i in range(len(batch_list_pred)):
                     list_pred, list_truth = batch_list_pred[i], batch_list_truth[i]
-                    pred_rating = list_pred.index(max(list_pred)) + 1
-                    truth_rating = list_truth.index(max(list_truth)) + 1
+                    pred_rating = list_pred.index(max(list_pred))
+                    truth_rating = list_truth.index(max(list_truth))
+
+                    total_pred.append(pred_rating)
+                    total_truth.append(truth_rating)
 
                     # print(f"----> Prediction: {pred} Ground Truth: {y_val}")
-                    print(f"----> Prediction: {pred_rating} Truth: {truth_rating}")
+                    # print(f"----> Prediction: {pred_rating} Truth: {truth_rating}")
 
                 # Calculate current validation loss
                 curr_loss = self.criterion(pred, y_val)
@@ -160,10 +195,16 @@ class RatingsTrainer:
                 # Update running validation loss
                 running_val_loss += curr_loss.item() * pred.shape[0]
 
-            print()
-
         # Rever to training mode
         model.train()
 
-        # Return our validation loss
-        return running_val_loss
+        # Save heatmap
+        wandb.log(
+            {
+                heatmap_name: wandb.plot.confusion_matrix(
+                    preds=total_pred,
+                    y_true=total_truth,
+                    class_names=[1, 2, 3, 4, 5],
+                )
+            }
+        )
