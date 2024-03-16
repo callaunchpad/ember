@@ -43,15 +43,6 @@ class RatingsTrainer:
 
         wandb.save(os.path.join(wandb.run.dir, "model_arch.txt"))
 
-        # If saving images for logging, update image subdirectory with name of this run
-        if self.config["SAVE_IMAGES"]:
-            self.config["IMAGES_SAVE_DIR"] = os.path.join(
-                self.config["IMAGES_SAVE_DIR"], wandb.run.name
-            )
-
-            # Create the directory
-            os.mkdir(self.config["IMAGES_SAVE_DIR"])
-
         # Store scheduler and optimizer type
         scheduler_string = str(self.scheduler)
         scheduler_params = self.scheduler.state_dict()
@@ -95,7 +86,7 @@ class RatingsTrainer:
 
     def train(self):
         # Initialize wandb
-        # self.init_wandb()
+        self.init_wandb()
 
         EPOCHS = self.config["EPOCHS"]
         curr_epoch = 0
@@ -116,6 +107,16 @@ class RatingsTrainer:
 
             # Increment epoch
             curr_epoch += 1
+
+            # Log metrics
+            wandb.log(
+                {
+                    "epoch": curr_epoch,
+                    "learning_rate": self.optimizer.param_groups[0]["lr"],
+                    "train_loss": curr_loss,
+                    "val_loss": val_loss,
+                }
+            )
 
         pass
 

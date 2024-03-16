@@ -7,3 +7,4 @@ squamish_data/frames/*
 __pycache__/*
 .log
 src/scripts/wandb
+new_env/

@@ -25,6 +25,31 @@ one that was just pure nighttime and time was way off - check for obvious nightt
 daylight savings on november 3 2019... i think website time doesn't acct for daylight savings
 maybe ignore days where daylight savings is there. don't rate those ig. or have script to comment specific days.
 
+2023-02-26 17:48:00 has a bad image (like sunset time off ig? or daylight savings maybe)
+
+2023-10-08 18:40:00 has a nighttime image for some reason (daylight again?
+
+2018-02-16 17:32:00 way off (like frame is nighttime)
+2018-02-18 17:35:00 way off (like frame is nighttime)
+2018-03-28 just off
+2018-06-19 off
+2018-06-25 cooked
+
+2019-02-09 too late
+2019-03-22 cooked
+2019-07-03
+
+2022-01-07 cooked
+
+
+
+
+
+SUS BC TRANSITION:
+
+2019-11-0
+
+
 """
 
 

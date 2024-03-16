@@ -54,7 +54,7 @@ set_seed(2023)
 
 # """
 config = {
-    "PROJECT": "ember_predict_ratings",
+    "PROJECT": "ember-lp",
     # ------------------- #
     "INPUT_DIR": "../../squamish_data/data.json",
     "INPUT_FEATURES": [
@@ -110,14 +110,13 @@ train_loader, val_loader, test_loader = split_dataset(
 
 # Define layers for our model
 layers = Sequential(
-    # Linear(len(config["INPUT_FEATURES"]), 32),
-    # ReLU(),
-    # Linear(32, 64),
-    # ReLU(),
-    # Linear(64, 16),
-    # ReLU(),
-    # Linear(16, 5),
-    Linear(len(config["INPUT_FEATURES"]), 5),
+    Linear(len(config["INPUT_FEATURES"]), 32),
+    ReLU(),
+    Linear(32, 64),
+    ReLU(),
+    Linear(64, 16),
+    ReLU(),
+    Linear(16, 5),
     # ReLU(),
     # Softmax(),
 )

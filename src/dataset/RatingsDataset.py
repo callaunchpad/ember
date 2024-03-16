@@ -37,14 +37,18 @@ class RatingsDataset(Dataset):
         # print(self.data)
 
     def convert_image_dict_weather_data_to_lists(self, image_dict):
+
         inputs = []
         outputs = []
 
         # The data
         data = {}
 
+        i = 0
+
         # Go through each image path in the image_dict
         for image_path, weather_data_map in image_dict.items():
+
             weather_data_list = []
 
             has_nan = False
@@ -66,7 +70,7 @@ class RatingsDataset(Dataset):
             inputs.append(weather_data_list)
 
             # Store the outputs
-            outputs.append(weather_data_map["default_rating"])
+            outputs.append(weather_data_map["rating"])
 
         # Convert to np arrays
         # inputs = np.array(inputs)

@@ -45,6 +45,16 @@ def previous_image(event=None):
     show_image()
 
 
+def jump_to_unrated():
+    """Jump to the first image without a rating."""
+    global current_image_index
+    for index, path in enumerate(image_paths):
+        if "rating" not in data[path] or 1 not in data[path]["rating"]:
+            current_image_index = index
+            break
+    show_image()
+
+
 def show_image():
     """Function to display the current image."""
     global current_image_index
@@ -98,6 +108,10 @@ for i in range(1, 6):
 # Create a label to display the current rating
 rating_label = tk.Label(window, text="Rating: None")
 rating_label.pack(side="bottom", anchor="e")
+
+# Create a button to jump to the first unrated image
+jump_button = tk.Button(window, text="Jump to Unrated", command=jump_to_unrated)
+jump_button.pack(side="bottom", pady=10)
 
 show_image()
 
