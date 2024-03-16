@@ -97,7 +97,7 @@ class RatingsTrainer:
 
             val_loss = self.validate()
 
-            print(f"Train error: {curr_loss} Val Loss: {val_loss}")
+            print(f"Epoch: {curr_epoch} Train error: {curr_loss} Val Loss: {val_loss}")
 
             # Empty cache
             torch.cuda.empty_cache()
