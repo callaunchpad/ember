@@ -13,8 +13,6 @@ def augment_data(input_json_path, output_dir, target_rating, num_copies):
     :param target_rating: The rating to filter and duplicate data for.
     :param num_copies: Number of copies to make for each data point with the target rating.
     """
-    # # Ensure the output directory exists
-    # Path(output_dir).mkdir(parents=True, exist_ok=True)
 
     # Load the data from the input JSON file
     with open(input_json_path, "r") as file:
@@ -37,7 +35,6 @@ def augment_data(input_json_path, output_dir, target_rating, num_copies):
             augmented_data[key] = value
 
     # Save the augmented data to a new JSON file in the output directory
-    # output_json_path = os.path.join(output_dir)
     with open(output_dir, "w") as file:
         json.dump(augmented_data, file, indent=4)
 
@@ -46,9 +43,9 @@ def augment_data(input_json_path, output_dir, target_rating, num_copies):
 
 if __name__ == "__main__":
     # Example usage
-    input_json_path = "datav2.json"  # Update this path
+    input_json_path = "datav2_augmented.json"  # Update this path
     output_dir = "datav2_augmented.json"  # Update this path
-    target_rating = 4  # The rating you want to augment
-    num_copies = 3  # Number of copies to make for each matching data point
+    target_rating = 5  # The rating you want to augment
+    num_copies = 8  # Number of copies to make for each matching data point
 
     augment_data(input_json_path, output_dir, target_rating, num_copies)
