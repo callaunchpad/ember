@@ -42,8 +42,12 @@ maybe ignore days where daylight savings is there. don't rate those ig. or have 
 2022-01-07 cooked
 
 
+2018-08-16
 
 
+2021-07-25
+
+2018-11-04
 
 SUS BC TRANSITION:
 
