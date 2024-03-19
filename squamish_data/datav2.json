@@ -11421,7 +11421,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2018-08-06_20:49:00.jpg": {
     "temp": 76.0,
@@ -12009,7 +12009,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-09-05_19:51:00.jpg": {
     "temp": 69.6,
@@ -12051,7 +12051,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-09-07_19:47:00.jpg": {
     "temp": 56.8,
@@ -12639,7 +12639,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2018-10-06_18:43:00.jpg": {
     "temp": 54.0,
@@ -12807,7 +12807,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-10-15_18:25:00.jpg": {
     "temp": 52.8,
@@ -13208,27 +13208,6 @@
     "default_rating": [0, 0, 0, 1, 0],
     "rating": [1, 0, 0, 0, 0]
   },
-  "frames/time_2018-11-04_17:48:00.jpg": {
-    "temp": 50.5,
-    "humidity": 88.7,
-    "dew": 47.3,
-    "precip": 0.0,
-    "precipprob": 0.0,
-    "snow": 0.0,
-    "snowdepth": 0.0,
-    "preciptype": null,
-    "windgust": null,
-    "windspeed": 1.5,
-    "pressure": 1013.3,
-    "cloudcover": 17.5,
-    "solarradiation": 14.0,
-    "solarenergy": 0.1,
-    "conditions": "Clear",
-    "overall_day_visibility": null,
-    "overall_day_preciptype": ["rain"],
-    "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
-  },
   "frames/time_2018-11-05_16:46:00.jpg": {
     "temp": 50.0,
     "humidity": 88.0,
@@ -13290,7 +13269,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2018-11-08_16:41:00.jpg": {
     "temp": 41.3,
@@ -13311,7 +13290,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-11-09_16:40:00.jpg": {
     "temp": 41.9,
@@ -13479,7 +13458,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2018-11-17_16:29:00.jpg": {
     "temp": 40.2,
@@ -13500,7 +13479,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-11-18_16:28:00.jpg": {
     "temp": 39.6,
@@ -13878,7 +13857,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2018-12-07_16:13:00.jpg": {
     "temp": 31.7,
@@ -13899,7 +13878,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2018-12-08_16:13:00.jpg": {
     "temp": 36.5,
@@ -14382,7 +14361,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2018-12-31_16:21:00.jpg": {
     "temp": 34.0,
@@ -14802,7 +14781,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-01-21_16:47:00.jpg": {
     "temp": 34.9,
@@ -14865,7 +14844,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-01-24_16:52:00.jpg": {
     "temp": 38.9,
@@ -14991,7 +14970,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2019-01-30_17:02:00.jpg": {
     "temp": 40.2,
@@ -15075,7 +15054,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-02-04_17:11:00.jpg": {
     "temp": 27.6,
@@ -15138,7 +15117,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-02-07_17:16:00.jpg": {
     "temp": 31.4,
@@ -15159,7 +15138,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-02-08_17:17:00.jpg": {
     "temp": 33.0,
@@ -15411,7 +15390,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2019-02-21_17:40:00.jpg": {
     "temp": 40.6,
@@ -15579,7 +15558,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-03-02_17:55:00.jpg": {
     "temp": 41.7,
@@ -15621,7 +15600,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-03-04_17:58:00.jpg": {
     "temp": 39.8,
@@ -16083,7 +16062,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-03-27_19:34:00.jpg": {
     "temp": 56.2,
@@ -16314,7 +16293,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-04-08_19:53:00.jpg": {
     "temp": 48.4,
@@ -16419,7 +16398,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-04-13_20:00:00.jpg": {
     "temp": 43.6,
@@ -16671,7 +16650,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-04-25_20:19:00.jpg": {
     "temp": 55.4,
@@ -16713,7 +16692,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-04-27_20:22:00.jpg": {
     "temp": 53.7,
@@ -16923,7 +16902,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-05-08_20:39:00.jpg": {
     "temp": 66.0,
@@ -16986,7 +16965,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-05-11_20:43:00.jpg": {
     "temp": 69.1,
@@ -17007,7 +16986,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-05-12_20:45:00.jpg": {
     "temp": 58.9,
@@ -17175,7 +17154,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-05-20_20:56:00.jpg": {
     "temp": 53.8,
@@ -17217,7 +17196,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-05-22_20:59:00.jpg": {
     "temp": 67.5,
@@ -17322,7 +17301,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-05-27_21:05:00.jpg": {
     "temp": 65.4,
@@ -17364,7 +17343,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-05-29_21:07:00.jpg": {
     "temp": 61.7,
@@ -17385,7 +17364,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-05-30_21:08:00.jpg": {
     "temp": 63.5,
@@ -17406,7 +17385,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-05-31_21:09:00.jpg": {
     "temp": 64.3,
@@ -17679,7 +17658,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-06-14_21:21:00.jpg": {
     "temp": 63.9,
@@ -17721,7 +17700,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-06-16_21:22:00.jpg": {
     "temp": 67.3,
@@ -17868,7 +17847,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-06-23_21:24:00.jpg": {
     "temp": 57.0,
@@ -17931,7 +17910,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2019-06-26_21:25:00.jpg": {
     "temp": 60.8,
@@ -18372,7 +18351,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-07-20_21:12:00.jpg": {
     "temp": 64.3,
@@ -18687,7 +18666,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-08-05_20:51:00.jpg": {
     "temp": 73.2,
@@ -18729,7 +18708,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-08-07_20:47:00.jpg": {
     "temp": 71.6,
@@ -18750,7 +18729,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-08-08_20:46:00.jpg": {
     "temp": 67.8,
@@ -18771,7 +18750,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-08-09_20:44:00.jpg": {
     "temp": 67.1,
@@ -18792,7 +18771,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-08-10_20:42:00.jpg": {
     "temp": 65.4,
@@ -19044,7 +19023,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2019-08-22_20:20:00.jpg": {
     "temp": 66.1,
@@ -19296,7 +19275,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2019-09-04_19:54:00.jpg": {
     "temp": 68.9,
@@ -19842,7 +19821,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 0, 1]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2019-09-30_18:57:00.jpg": {
     "temp": 54.8,
@@ -20535,7 +20514,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2019-11-05_16:46:00.jpg": {
     "temp": 45.6,
@@ -20913,7 +20892,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-11-23_16:23:00.jpg": {
     "temp": 43.4,
@@ -20955,7 +20934,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2019-11-25_16:21:00.jpg": {
     "temp": 37.4,
@@ -21018,7 +20997,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2019-11-28_16:18:00.jpg": {
     "temp": 39.2,
@@ -23034,7 +23013,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-03-08_18:06:00.jpg": {
     "temp": 37.3,
@@ -23076,7 +23055,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-03-10_19:09:00.jpg": {
     "temp": 37.6,
@@ -23181,7 +23160,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-03-16_19:18:00.jpg": {
     "temp": 45.0,
@@ -23223,7 +23202,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-03-18_19:21:00.jpg": {
     "temp": 49.0,
@@ -23244,7 +23223,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-03-19_19:23:00.jpg": {
     "temp": 49.6,
@@ -23265,7 +23244,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-03-20_19:24:00.jpg": {
     "temp": 50.6,
@@ -23286,7 +23265,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-03-21_19:26:00.jpg": {
     "temp": 50.4,
@@ -23307,7 +23286,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-03-22_19:28:00.jpg": {
     "temp": 49.5,
@@ -23328,7 +23307,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-03-23_19:29:00.jpg": {
     "temp": 44.6,
@@ -23601,7 +23580,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-04-06_19:51:00.jpg": {
     "temp": 51.2,
@@ -23622,7 +23601,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-04-07_19:52:00.jpg": {
     "temp": 51.1,
@@ -23643,7 +23622,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-04-08_19:54:00.jpg": {
     "temp": 55.4,
@@ -23664,7 +23643,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-04-09_19:55:00.jpg": {
     "temp": 56.4,
@@ -23685,7 +23664,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-04-10_19:57:00.jpg": {
     "temp": 55.5,
@@ -23832,7 +23811,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-04-17_20:08:00.jpg": {
     "temp": 56.4,
@@ -23874,7 +23853,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-04-19_20:11:00.jpg": {
     "temp": 55.4,
@@ -23895,7 +23874,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-04-20_20:12:00.jpg": {
     "temp": 54.5,
@@ -24063,7 +24042,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-04-28_20:25:00.jpg": {
     "temp": 48.6,
@@ -24084,7 +24063,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-04-29_20:26:00.jpg": {
     "temp": 51.8,
@@ -24462,7 +24441,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-05-18_20:54:00.jpg": {
     "temp": 62.0,
@@ -24483,7 +24462,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-05-19_20:56:00.jpg": {
     "temp": 61.4,
@@ -24504,7 +24483,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-05-20_20:57:00.jpg": {
     "temp": 58.6,
@@ -24525,7 +24504,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-05-21_20:58:00.jpg": {
     "temp": 53.7,
@@ -24693,7 +24672,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-05-29_21:08:00.jpg": {
     "temp": 63.0,
@@ -25008,7 +24987,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-06-14_21:22:00.jpg": {
     "temp": 55.5,
@@ -25113,7 +25092,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-06-19_21:24:00.jpg": {
     "temp": 63.4,
@@ -25176,7 +25155,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-06-22_21:24:00.jpg": {
     "temp": 61.0,
@@ -25260,7 +25239,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-06-26_21:25:00.jpg": {
     "temp": 61.1,
@@ -25323,7 +25302,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-06-29_21:24:00.jpg": {
     "temp": 65.6,
@@ -25344,7 +25323,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-06-30_21:24:00.jpg": {
     "temp": 56.2,
@@ -25428,7 +25407,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-05_21:23:00.jpg": {
     "temp": 63.9,
@@ -25449,7 +25428,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-07-06_21:22:00.jpg": {
     "temp": 63.5,
@@ -25470,7 +25449,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-07-07_21:22:00.jpg": {
     "temp": 60.4,
@@ -25554,7 +25533,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-07-11_21:19:00.jpg": {
     "temp": 57.0,
@@ -25596,7 +25575,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-13_21:18:00.jpg": {
     "temp": 62.8,
@@ -25617,7 +25596,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-14_21:17:00.jpg": {
     "temp": 66.3,
@@ -25638,7 +25617,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-15_21:16:00.jpg": {
     "temp": 67.9,
@@ -25659,7 +25638,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-07-16_21:15:00.jpg": {
     "temp": 67.3,
@@ -25701,7 +25680,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-07-18_21:13:00.jpg": {
     "temp": 68.2,
@@ -25722,7 +25701,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-07-19_21:12:00.jpg": {
     "temp": 69.2,
@@ -25743,7 +25722,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-20_21:11:00.jpg": {
     "temp": 70.8,
@@ -25848,7 +25827,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-25_21:05:00.jpg": {
     "temp": 64.2,
@@ -25869,7 +25848,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-26_21:04:00.jpg": {
     "temp": 69.9,
@@ -25890,7 +25869,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-27_21:03:00.jpg": {
     "temp": 71.6,
@@ -25953,7 +25932,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-07-30_20:59:00.jpg": {
     "temp": 77.0,
@@ -25974,7 +25953,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-07-31_20:57:00.jpg": {
     "temp": 71.2,
@@ -26037,7 +26016,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-04_20:51:00.jpg": {
     "temp": 73.7,
@@ -26058,7 +26037,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-05_20:50:00.jpg": {
     "temp": 73.3,
@@ -26079,7 +26058,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-08-06_20:48:00.jpg": {
     "temp": 60.5,
@@ -26142,7 +26121,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-09_20:43:00.jpg": {
     "temp": 67.5,
@@ -26163,7 +26142,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-10_20:41:00.jpg": {
     "temp": 69.4,
@@ -26205,7 +26184,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2020-08-12_20:38:00.jpg": {
     "temp": 59.1,
@@ -26247,7 +26226,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-08-14_20:34:00.jpg": {
     "temp": 67.1,
@@ -26268,7 +26247,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-15_20:32:00.jpg": {
     "temp": 69.9,
@@ -26289,7 +26268,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-16_20:30:00.jpg": {
     "temp": 76.5,
@@ -26310,7 +26289,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2020-08-17_20:29:00.jpg": {
     "temp": 76.0,
@@ -26331,7 +26310,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-18_20:27:00.jpg": {
     "temp": 70.7,
@@ -26352,7 +26331,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-08-19_20:25:00.jpg": {
     "temp": 69.5,
@@ -26478,7 +26457,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-25_20:13:00.jpg": {
     "temp": 64.3,
@@ -26499,7 +26478,7 @@
     "overall_day_visibility": 23.6,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-26_20:11:00.jpg": {
     "temp": 61.3,
@@ -26520,7 +26499,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-27_20:09:00.jpg": {
     "temp": 65.3,
@@ -26541,7 +26520,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-28_20:07:00.jpg": {
     "temp": 64.7,
@@ -26562,7 +26541,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-08-29_20:05:00.jpg": {
     "temp": 61.0,
@@ -26583,7 +26562,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-08-30_20:03:00.jpg": {
     "temp": 57.1,
@@ -26646,7 +26625,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-09-03_19:54:00.jpg": {
     "temp": 68.2,
@@ -26730,7 +26709,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-09-07_19:46:00.jpg": {
     "temp": 71.1,
@@ -26793,7 +26772,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-09-10_19:39:00.jpg": {
     "temp": 72.0,
@@ -26814,7 +26793,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-09-11_19:37:00.jpg": {
     "temp": 67.7,
@@ -27024,7 +27003,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-09-21_19:15:00.jpg": {
     "temp": 60.8,
@@ -27192,7 +27171,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-09-29_18:58:00.jpg": {
     "temp": 66.8,
@@ -27213,7 +27192,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-09-30_18:55:00.jpg": {
     "temp": 67.2,
@@ -27234,7 +27213,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2020-10-02_18:51:00.jpg": {
     "temp": 64.0,
@@ -27318,7 +27297,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-10-06_18:42:00.jpg": {
     "temp": 61.9,
@@ -27339,7 +27318,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-10-07_18:40:00.jpg": {
     "temp": 62.7,
@@ -27360,7 +27339,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-10-08_18:38:00.jpg": {
     "temp": 60.8,
@@ -27423,7 +27402,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-10-11_18:32:00.jpg": {
     "temp": 44.4,
@@ -27486,7 +27465,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-10-14_18:26:00.jpg": {
     "temp": 50.0,
@@ -27507,7 +27486,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-10-15_18:24:00.jpg": {
     "temp": 48.5,
@@ -27612,7 +27591,7 @@
     "overall_day_visibility": 9.0,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-10-20_18:14:00.jpg": {
     "temp": 48.2,
@@ -27633,7 +27612,7 @@
     "overall_day_visibility": 14.9,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-10-21_18:12:00.jpg": {
     "temp": 45.6,
@@ -27675,7 +27654,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-10-23_18:08:00.jpg": {
     "temp": 41.3,
@@ -27717,7 +27696,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-10-25_18:04:00.jpg": {
     "temp": 35.6,
@@ -27738,7 +27717,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2020-10-26_18:02:00.jpg": {
     "temp": 37.8,
@@ -27759,7 +27738,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-10-27_18:01:00.jpg": {
     "temp": 39.7,
@@ -27843,7 +27822,7 @@
     "overall_day_visibility": 17.4,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-10-31_17:54:00.jpg": {
     "temp": 44.8,
@@ -27864,7 +27843,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-11-02_16:50:00.jpg": {
     "temp": 50.7,
@@ -27885,7 +27864,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-11-03_16:48:00.jpg": {
     "temp": 45.3,
@@ -27948,7 +27927,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-11-06_16:44:00.jpg": {
     "temp": 44.5,
@@ -27969,7 +27948,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2020-11-07_16:42:00.jpg": {
     "temp": 45.3,
@@ -27990,7 +27969,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-11-08_16:41:00.jpg": {
     "temp": 46.6,
@@ -28011,7 +27990,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-11-09_16:39:00.jpg": {
     "temp": 37.1,
@@ -28284,7 +28263,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-11-22_16:23:00.jpg": {
     "temp": 38.8,
@@ -28368,7 +28347,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-11-26_16:19:00.jpg": {
     "temp": 40.2,
@@ -28431,7 +28410,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-11-29_16:17:00.jpg": {
     "temp": 39.0,
@@ -28473,7 +28452,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2020-12-02_16:15:00.jpg": {
     "temp": 40.2,
@@ -28494,7 +28473,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-12-03_16:15:00.jpg": {
     "temp": 41.4,
@@ -28536,7 +28515,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-12-05_16:14:00.jpg": {
     "temp": 41.2,
@@ -28683,7 +28662,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-12-12_16:13:00.jpg": {
     "temp": 34.8,
@@ -28704,7 +28683,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-12-13_16:13:00.jpg": {
     "temp": 35.1,
@@ -28914,7 +28893,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2020-12-23_16:15:00.jpg": {
     "temp": 32.7,
@@ -28935,7 +28914,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-12-24_16:16:00.jpg": {
     "temp": 32.8,
@@ -28956,7 +28935,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2020-12-25_16:16:00.jpg": {
     "temp": 35.0,
@@ -28998,7 +28977,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2020-12-27_16:18:00.jpg": {
     "temp": 40.3,
@@ -29040,7 +29019,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2020-12-29_16:19:00.jpg": {
     "temp": 35.2,
@@ -29229,7 +29208,7 @@
     "overall_day_visibility": 19.9,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-01-08_16:30:00.jpg": {
     "temp": 37.9,
@@ -29460,7 +29439,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-01-19_16:45:00.jpg": {
     "temp": 41.3,
@@ -29523,7 +29502,7 @@
     "overall_day_visibility": 19.3,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-01-22_16:50:00.jpg": {
     "temp": 37.9,
@@ -29544,7 +29523,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-01-23_16:51:00.jpg": {
     "temp": 34.2,
@@ -29565,7 +29544,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-01-24_16:53:00.jpg": {
     "temp": 32.7,
@@ -29775,7 +29754,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-02-04_17:11:00.jpg": {
     "temp": 39.2,
@@ -29817,7 +29796,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-02-06_17:15:00.jpg": {
     "temp": 40.8,
@@ -29901,7 +29880,7 @@
     "overall_day_visibility": 14.9,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-02-10_17:22:00.jpg": {
     "temp": 28.3,
@@ -30048,7 +30027,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-02-17_17:34:00.jpg": {
     "temp": 39.0,
@@ -30447,7 +30426,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-03-09_18:07:00.jpg": {
     "temp": 40.7,
@@ -30489,7 +30468,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-03-11_18:10:00.jpg": {
     "temp": 43.4,
@@ -30510,7 +30489,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-03-12_18:11:00.jpg": {
     "temp": 48.2,
@@ -30573,7 +30552,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-03-15_19:16:00.jpg": {
     "temp": 42.1,
@@ -30594,7 +30573,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-03-16_19:18:00.jpg": {
     "temp": 43.1,
@@ -30615,7 +30594,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-03-17_19:19:00.jpg": {
     "temp": 48.1,
@@ -30741,7 +30720,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-03-23_19:29:00.jpg": {
     "temp": 46.4,
@@ -30804,7 +30783,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-03-26_19:33:00.jpg": {
     "temp": 47.8,
@@ -30888,7 +30867,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-03-30_19:39:00.jpg": {
     "temp": 46.1,
@@ -30993,7 +30972,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-05_19:49:00.jpg": {
     "temp": 48.4,
@@ -31014,7 +30993,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-06_19:50:00.jpg": {
     "temp": 51.4,
@@ -31077,7 +31056,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-04-09_19:55:00.jpg": {
     "temp": 40.2,
@@ -31119,7 +31098,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-11_19:58:00.jpg": {
     "temp": 47.4,
@@ -31140,7 +31119,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-12_20:00:00.jpg": {
     "temp": 50.9,
@@ -31161,7 +31140,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-13_20:01:00.jpg": {
     "temp": 52.4,
@@ -31182,7 +31161,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-14_20:03:00.jpg": {
     "temp": 55.4,
@@ -31203,7 +31182,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-15_20:04:00.jpg": {
     "temp": 57.7,
@@ -31224,7 +31203,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-16_20:06:00.jpg": {
     "temp": 59.1,
@@ -31245,7 +31224,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-17_20:07:00.jpg": {
     "temp": 59.6,
@@ -31266,7 +31245,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-18_20:09:00.jpg": {
     "temp": 58.8,
@@ -31287,7 +31266,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-04-19_20:10:00.jpg": {
     "temp": 58.2,
@@ -31308,7 +31287,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-04-20_20:12:00.jpg": {
     "temp": 57.7,
@@ -31329,7 +31308,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-04-21_20:13:00.jpg": {
     "temp": 57.2,
@@ -31371,7 +31350,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-04-23_20:17:00.jpg": {
     "temp": 54.6,
@@ -31602,7 +31581,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-05-05_20:35:00.jpg": {
     "temp": 62.0,
@@ -31707,7 +31686,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-05-10_20:42:00.jpg": {
     "temp": 57.0,
@@ -31728,7 +31707,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-05-11_20:44:00.jpg": {
     "temp": 62.7,
@@ -31770,7 +31749,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-05-13_20:47:00.jpg": {
     "temp": 62.1,
@@ -31833,7 +31812,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-05-16_20:51:00.jpg": {
     "temp": 65.2,
@@ -31917,7 +31896,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-05-20_20:57:00.jpg": {
     "temp": 58.2,
@@ -31938,7 +31917,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-05-21_20:58:00.jpg": {
     "temp": 61.0,
@@ -32211,7 +32190,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-06-04_21:14:00.jpg": {
     "temp": 54.1,
@@ -32295,7 +32274,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-06-08_21:17:00.jpg": {
     "temp": 56.7,
@@ -32337,7 +32316,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-06-10_21:19:00.jpg": {
     "temp": 55.2,
@@ -32400,7 +32379,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-06-13_21:21:00.jpg": {
     "temp": 59.1,
@@ -32484,7 +32463,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-06-17_21:23:00.jpg": {
     "temp": 63.6,
@@ -32505,7 +32484,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-06-18_21:23:00.jpg": {
     "temp": 64.4,
@@ -32526,7 +32505,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-06-19_21:24:00.jpg": {
     "temp": 64.1,
@@ -32568,7 +32547,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-06-21_21:24:00.jpg": {
     "temp": 73.2,
@@ -32589,7 +32568,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-06-22_21:24:00.jpg": {
     "temp": 69.9,
@@ -32610,7 +32589,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-06-23_21:24:00.jpg": {
     "temp": 66.4,
@@ -32631,7 +32610,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-06-24_21:25:00.jpg": {
     "temp": 71.5,
@@ -32652,7 +32631,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-06-25_21:25:00.jpg": {
     "temp": 76.3,
@@ -32673,7 +32652,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-06-26_21:25:00.jpg": {
     "temp": 80.5,
@@ -32694,7 +32673,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-06-27_21:25:00.jpg": {
     "temp": 83.3,
@@ -32715,7 +32694,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-06-28_21:25:00.jpg": {
     "temp": 85.5,
@@ -32736,7 +32715,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-06-29_21:24:00.jpg": {
     "temp": 76.3,
@@ -32757,7 +32736,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-06-30_21:24:00.jpg": {
     "temp": 69.7,
@@ -32820,7 +32799,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-04_21:23:00.jpg": {
     "temp": 71.0,
@@ -32841,7 +32820,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-05_21:23:00.jpg": {
     "temp": 69.3,
@@ -32883,7 +32862,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-07_21:22:00.jpg": {
     "temp": 65.6,
@@ -32904,7 +32883,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-08_21:21:00.jpg": {
     "temp": 66.8,
@@ -32946,7 +32925,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-10_21:20:00.jpg": {
     "temp": 71.1,
@@ -32967,7 +32946,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-11_21:19:00.jpg": {
     "temp": 70.6,
@@ -33051,7 +33030,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-15_21:16:00.jpg": {
     "temp": 65.3,
@@ -33072,7 +33051,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-16_21:15:00.jpg": {
     "temp": 62.6,
@@ -33198,7 +33177,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-22_21:09:00.jpg": {
     "temp": 64.8,
@@ -33240,7 +33219,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-24_21:07:00.jpg": {
     "temp": 71.0,
@@ -33261,28 +33240,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
-  },
-  "frames/time_2021-07-25_21:06:00.jpg": {
-    "temp": 71.4,
-    "humidity": 62.3,
-    "dew": 57.9,
-    "precip": 0.0,
-    "precipprob": 0.0,
-    "snow": 0.0,
-    "snowdepth": 0.0,
-    "preciptype": null,
-    "windgust": null,
-    "windspeed": 2.1,
-    "pressure": 1014.7,
-    "cloudcover": 0.0,
-    "solarradiation": 12.0,
-    "solarenergy": 0.0,
-    "conditions": "Clear",
-    "overall_day_visibility": null,
-    "overall_day_preciptype": null,
-    "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-07-26_21:04:00.jpg": {
     "temp": 69.8,
@@ -33303,7 +33261,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-27_21:03:00.jpg": {
     "temp": 73.0,
@@ -33324,7 +33282,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-28_21:02:00.jpg": {
     "temp": 72.8,
@@ -33345,7 +33303,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-29_21:00:00.jpg": {
     "temp": 72.9,
@@ -33366,7 +33324,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-30_20:59:00.jpg": {
     "temp": 80.7,
@@ -33387,7 +33345,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-07-31_20:58:00.jpg": {
     "temp": 79.3,
@@ -33576,7 +33534,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-08-10_20:42:00.jpg": {
     "temp": 73.9,
@@ -33597,7 +33555,7 @@
     "overall_day_visibility": 23.5,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-08-11_20:40:00.jpg": {
     "temp": 76.1,
@@ -33618,7 +33576,7 @@
     "overall_day_visibility": 20.8,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-08-12_20:38:00.jpg": {
     "temp": 82.7,
@@ -33639,7 +33597,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-08-13_20:36:00.jpg": {
     "temp": 79.0,
@@ -33702,7 +33660,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-08-16_20:31:00.jpg": {
     "temp": 65.5,
@@ -33744,7 +33702,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-08-18_20:27:00.jpg": {
     "temp": 67.2,
@@ -33765,7 +33723,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-08-19_20:25:00.jpg": {
     "temp": 69.0,
@@ -33786,7 +33744,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-08-20_20:23:00.jpg": {
     "temp": 60.4,
@@ -33870,7 +33828,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-08-24_20:15:00.jpg": {
     "temp": 65.9,
@@ -33891,7 +33849,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-08-25_20:13:00.jpg": {
     "temp": 69.4,
@@ -33975,7 +33933,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-08-29_20:05:00.jpg": {
     "temp": 67.2,
@@ -33996,7 +33954,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-08-30_20:03:00.jpg": {
     "temp": 60.4,
@@ -34017,7 +33975,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-08-31_20:01:00.jpg": {
     "temp": 56.9,
@@ -34038,7 +33996,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-09-02_19:57:00.jpg": {
     "temp": 68.0,
@@ -34059,7 +34017,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-09-03_19:55:00.jpg": {
     "temp": 66.1,
@@ -34143,7 +34101,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-09-07_19:46:00.jpg": {
     "temp": 69.7,
@@ -34164,7 +34122,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-09-08_19:44:00.jpg": {
     "temp": 69.3,
@@ -34206,7 +34164,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-09-10_19:40:00.jpg": {
     "temp": 67.2,
@@ -34227,7 +34185,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-09-11_19:38:00.jpg": {
     "temp": 59.0,
@@ -34269,7 +34227,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-09-13_19:33:00.jpg": {
     "temp": 62.3,
@@ -34290,7 +34248,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-09-14_19:31:00.jpg": {
     "temp": 56.9,
@@ -34332,7 +34290,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-09-16_19:27:00.jpg": {
     "temp": 57.3,
@@ -34458,7 +34416,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-09-22_19:14:00.jpg": {
     "temp": 60.4,
@@ -34479,7 +34437,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-09-23_19:11:00.jpg": {
     "temp": 56.7,
@@ -34500,7 +34458,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-09-24_19:09:00.jpg": {
     "temp": 59.7,
@@ -34521,7 +34479,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-09-25_19:07:00.jpg": {
     "temp": 64.5,
@@ -34773,7 +34731,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-10-09_18:37:00.jpg": {
     "temp": 48.2,
@@ -34836,7 +34794,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-10-12_18:30:00.jpg": {
     "temp": 42.3,
@@ -34983,7 +34941,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-10-19_18:16:00.jpg": {
     "temp": 48.6,
@@ -35214,7 +35172,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-10-30_17:56:00.jpg": {
     "temp": 52.7,
@@ -35235,7 +35193,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-10-31_17:54:00.jpg": {
     "temp": 47.7,
@@ -35256,7 +35214,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2021-11-02_17:51:00.jpg": {
     "temp": 46.8,
@@ -35592,7 +35550,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-11-17_16:29:00.jpg": {
     "temp": 38.3,
@@ -35676,7 +35634,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-11-21_16:24:00.jpg": {
     "temp": 42.5,
@@ -35907,7 +35865,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2021-12-03_16:15:00.jpg": {
     "temp": 35.5,
@@ -36054,7 +36012,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2021-12-10_16:13:00.jpg": {
     "temp": 33.8,
@@ -36201,7 +36159,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-12-17_16:13:00.jpg": {
     "temp": 31.0,
@@ -36264,7 +36222,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-12-20_16:14:00.jpg": {
     "temp": 25.3,
@@ -36285,7 +36243,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-12-21_16:14:00.jpg": {
     "temp": 27.1,
@@ -36495,7 +36453,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2021-12-31_16:21:00.jpg": {
     "temp": 22.9,
@@ -36516,7 +36474,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-01-02_16:23:00.jpg": {
     "temp": 33.2,
@@ -36663,7 +36621,7 @@
     "overall_day_visibility": null,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2022-01-10_16:32:00.jpg": {
     "temp": 33.9,
@@ -36894,7 +36852,7 @@
     "overall_day_visibility": 0.2,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2022-01-21_16:48:00.jpg": {
     "temp": 39.2,
@@ -36936,7 +36894,7 @@
     "overall_day_visibility": 11.2,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2022-01-23_16:51:00.jpg": {
     "temp": 37.5,
@@ -36999,7 +36957,7 @@
     "overall_day_visibility": 11.8,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-01-26_16:56:00.jpg": {
     "temp": 35.9,
@@ -37020,7 +36978,7 @@
     "overall_day_visibility": 11.7,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-01-27_16:57:00.jpg": {
     "temp": 38.2,
@@ -37062,7 +37020,7 @@
     "overall_day_visibility": 8.8,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-01-29_17:01:00.jpg": {
     "temp": 34.8,
@@ -37125,7 +37083,7 @@
     "overall_day_visibility": 6.1,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2022-02-02_17:08:00.jpg": {
     "temp": 30.7,
@@ -37230,7 +37188,7 @@
     "overall_day_visibility": 10.9,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-02-07_17:16:00.jpg": {
     "temp": 44.7,
@@ -37251,7 +37209,7 @@
     "overall_day_visibility": 0.7,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-02-08_17:18:00.jpg": {
     "temp": 39.7,
@@ -37335,7 +37293,7 @@
     "overall_day_visibility": 12.1,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-02-12_17:25:00.jpg": {
     "temp": 43.2,
@@ -37356,7 +37314,7 @@
     "overall_day_visibility": 11.1,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2022-02-13_17:26:00.jpg": {
     "temp": 43.8,
@@ -37398,7 +37356,7 @@
     "overall_day_visibility": 3.0,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-02-15_17:30:00.jpg": {
     "temp": 43.5,
@@ -37482,7 +37440,7 @@
     "overall_day_visibility": 0.1,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-02-19_17:37:00.jpg": {
     "temp": 40.2,
@@ -37566,7 +37524,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-02-23_17:43:00.jpg": {
     "temp": 32.8,
@@ -37608,7 +37566,7 @@
     "overall_day_visibility": 12.6,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-02-25_17:47:00.jpg": {
     "temp": 37.5,
@@ -37629,7 +37587,7 @@
     "overall_day_visibility": 10.4,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-02-26_17:48:00.jpg": {
     "temp": 35.4,
@@ -37755,7 +37713,7 @@
     "overall_day_visibility": 9.4,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-03-05_18:00:00.jpg": {
     "temp": 41.7,
@@ -37776,7 +37734,7 @@
     "overall_day_visibility": 10.2,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-03-06_18:01:00.jpg": {
     "temp": 44.7,
@@ -37797,7 +37755,7 @@
     "overall_day_visibility": 11.1,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-03-07_18:03:00.jpg": {
     "temp": 45.1,
@@ -37839,7 +37797,7 @@
     "overall_day_visibility": 9.5,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-03-09_18:06:00.jpg": {
     "temp": 38.8,
@@ -37860,7 +37818,7 @@
     "overall_day_visibility": 14.7,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-03-10_18:08:00.jpg": {
     "temp": 41.5,
@@ -38070,7 +38028,7 @@
     "overall_day_visibility": 4.0,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-03-20_19:24:00.jpg": {
     "temp": 38.0,
@@ -38259,7 +38217,7 @@
     "overall_day_visibility": 4.2,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-03-29_19:38:00.jpg": {
     "temp": 54.4,
@@ -38301,7 +38259,7 @@
     "overall_day_visibility": 4.1,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-03-31_19:41:00.jpg": {
     "temp": 47.4,
@@ -38532,7 +38490,7 @@
     "overall_day_visibility": 14.8,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-04-12_19:59:00.jpg": {
     "temp": 38.6,
@@ -38637,7 +38595,7 @@
     "overall_day_visibility": 13.0,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-04-17_20:07:00.jpg": {
     "temp": 47.8,
@@ -38700,7 +38658,7 @@
     "overall_day_visibility": 5.1,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-04-20_20:12:00.jpg": {
     "temp": 49.5,
@@ -38763,7 +38721,7 @@
     "overall_day_visibility": 11.0,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-04-23_20:16:00.jpg": {
     "temp": 53.6,
@@ -38868,7 +38826,7 @@
     "overall_day_visibility": 9.3,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-04-28_20:24:00.jpg": {
     "temp": 50.7,
@@ -38889,7 +38847,7 @@
     "overall_day_visibility": 11.1,
     "overall_day_preciptype": ["snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-04-29_20:25:00.jpg": {
     "temp": 52.3,
@@ -38931,7 +38889,7 @@
     "overall_day_visibility": 7.1,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-05-02_20:30:00.jpg": {
     "temp": 54.9,
@@ -39036,7 +38994,7 @@
     "overall_day_visibility": 3.9,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 0, 1, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-05-07_20:38:00.jpg": {
     "temp": 47.2,
@@ -39057,7 +39015,7 @@
     "overall_day_visibility": 6.9,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-05-08_20:39:00.jpg": {
     "temp": 49.2,
@@ -39099,7 +39057,7 @@
     "overall_day_visibility": 6.1,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-05-10_20:42:00.jpg": {
     "temp": 51.9,
@@ -39246,7 +39204,7 @@
     "overall_day_visibility": 8.2,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-05-17_20:52:00.jpg": {
     "temp": 53.0,
@@ -39309,7 +39267,7 @@
     "overall_day_visibility": 12.7,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-05-20_20:56:00.jpg": {
     "temp": 57.1,
@@ -39330,7 +39288,7 @@
     "overall_day_visibility": 14.8,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-05-21_20:58:00.jpg": {
     "temp": 59.9,
@@ -39351,7 +39309,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-05-22_20:59:00.jpg": {
     "temp": 63.6,
@@ -39393,7 +39351,7 @@
     "overall_day_visibility": 13.0,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-05-25_21:03:00.jpg": {
     "temp": 58.0,
@@ -39414,7 +39372,7 @@
     "overall_day_visibility": 8.0,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-05-26_21:04:00.jpg": {
     "temp": 54.1,
@@ -39771,7 +39729,7 @@
     "overall_day_visibility": 12.9,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2022-06-13_21:21:00.jpg": {
     "temp": 53.8,
@@ -39855,7 +39813,7 @@
     "overall_day_visibility": 10.5,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-06-17_21:23:00.jpg": {
     "temp": 57.1,
@@ -40002,7 +39960,7 @@
     "overall_day_visibility": 14.3,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-06-24_21:25:00.jpg": {
     "temp": 63.4,
@@ -40023,7 +39981,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-06-25_21:25:00.jpg": {
     "temp": 69.8,
@@ -40044,7 +40002,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-06-26_21:25:00.jpg": {
     "temp": 72.3,
@@ -40065,7 +40023,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-06-27_21:25:00.jpg": {
     "temp": 73.4,
@@ -40086,7 +40044,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-06-28_21:25:00.jpg": {
     "temp": 57.9,
@@ -40296,7 +40254,7 @@
     "overall_day_visibility": 12.9,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [1, 0, 0, 0, 0]
   },
   "frames/time_2022-07-09_21:21:00.jpg": {
     "temp": 65.0,
@@ -40317,7 +40275,7 @@
     "overall_day_visibility": 14.1,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-07-10_21:20:00.jpg": {
     "temp": 63.5,
@@ -40338,7 +40296,7 @@
     "overall_day_visibility": 14.8,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-11_21:20:00.jpg": {
     "temp": 69.2,
@@ -40359,7 +40317,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-12_21:19:00.jpg": {
     "temp": 70.4,
@@ -40548,7 +40506,7 @@
     "overall_day_visibility": 23.4,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-21_21:11:00.jpg": {
     "temp": 68.5,
@@ -40611,7 +40569,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-24_21:07:00.jpg": {
     "temp": 69.3,
@@ -40632,7 +40590,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-07-25_21:06:00.jpg": {
     "temp": 73.6,
@@ -40653,7 +40611,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-26_21:05:00.jpg": {
     "temp": 78.0,
@@ -40674,7 +40632,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-27_21:03:00.jpg": {
     "temp": 76.2,
@@ -40695,7 +40653,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-28_21:02:00.jpg": {
     "temp": 75.3,
@@ -40716,7 +40674,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-29_21:01:00.jpg": {
     "temp": 74.7,
@@ -40737,7 +40695,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-30_20:59:00.jpg": {
     "temp": 78.7,
@@ -40758,7 +40716,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-07-31_20:58:00.jpg": {
     "temp": 78.0,
@@ -40779,7 +40737,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-02_20:55:00.jpg": {
     "temp": 69.6,
@@ -40800,7 +40758,7 @@
     "overall_day_visibility": 13.3,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-03_20:53:00.jpg": {
     "temp": 60.6,
@@ -40863,7 +40821,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-06_20:49:00.jpg": {
     "temp": 71.7,
@@ -40884,7 +40842,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-07_20:47:00.jpg": {
     "temp": 75.0,
@@ -40905,7 +40863,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-08_20:45:00.jpg": {
     "temp": 75.3,
@@ -40926,7 +40884,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-09_20:44:00.jpg": {
     "temp": 74.3,
@@ -40989,7 +40947,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-12_20:39:00.jpg": {
     "temp": 71.9,
@@ -41094,7 +41052,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-17_20:30:00.jpg": {
     "temp": 75.8,
@@ -41115,7 +41073,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-18_20:28:00.jpg": {
     "temp": 76.0,
@@ -41178,7 +41136,7 @@
     "overall_day_visibility": 14.9,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-08-21_20:22:00.jpg": {
     "temp": 71.2,
@@ -41199,7 +41157,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-22_20:20:00.jpg": {
     "temp": 72.7,
@@ -41220,7 +41178,7 @@
     "overall_day_visibility": 14.9,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-23_20:18:00.jpg": {
     "temp": 71.9,
@@ -41262,7 +41220,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-25_20:14:00.jpg": {
     "temp": 76.0,
@@ -41283,7 +41241,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-26_20:12:00.jpg": {
     "temp": 65.4,
@@ -41367,7 +41325,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-30_20:04:00.jpg": {
     "temp": 73.5,
@@ -41388,7 +41346,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-08-31_20:02:00.jpg": {
     "temp": 77.3,
@@ -41430,7 +41388,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-09-03_19:55:00.jpg": {
     "temp": 69.8,
@@ -41514,7 +41472,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-09-07_19:47:00.jpg": {
     "temp": 67.4,
@@ -41535,7 +41493,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-09-08_19:45:00.jpg": {
     "temp": 64.4,
@@ -41766,7 +41724,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-09-19_19:21:00.jpg": {
     "temp": 61.0,
@@ -41787,7 +41745,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-09-20_19:18:00.jpg": {
     "temp": 65.8,
@@ -41808,7 +41766,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-09-21_19:16:00.jpg": {
     "temp": 63.5,
@@ -41829,7 +41787,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-09-22_19:14:00.jpg": {
     "temp": 63.2,
@@ -41892,7 +41850,7 @@
     "overall_day_visibility": 12.8,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-09-25_19:07:00.jpg": {
     "temp": 64.6,
@@ -41934,7 +41892,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-09-27_19:03:00.jpg": {
     "temp": 66.6,
@@ -41955,7 +41913,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-09-28_19:01:00.jpg": {
     "temp": 61.4,
@@ -41997,7 +41955,7 @@
     "overall_day_visibility": 13.6,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-09-30_18:57:00.jpg": {
     "temp": 65.5,
@@ -42018,7 +41976,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-10-02_18:52:00.jpg": {
     "temp": 66.5,
@@ -42039,7 +41997,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-10-03_18:50:00.jpg": {
     "temp": 66.5,
@@ -42060,7 +42018,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-10-04_18:48:00.jpg": {
     "temp": 63.6,
@@ -42081,7 +42039,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-10-05_18:46:00.jpg": {
     "temp": 63.5,
@@ -42144,7 +42102,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-10-08_18:39:00.jpg": {
     "temp": 64.5,
@@ -42165,7 +42123,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-05-24_21:01:00.jpg": {
     "temp": 55.0,
@@ -42228,7 +42186,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-10-11_18:33:00.jpg": {
     "temp": 56.1,
@@ -42249,7 +42207,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-10-12_18:31:00.jpg": {
     "temp": 59.3,
@@ -42270,7 +42228,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-10-13_18:29:00.jpg": {
     "temp": 61.5,
@@ -42291,7 +42249,7 @@
     "overall_day_visibility": 17.3,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-10-14_18:27:00.jpg": {
     "temp": 59.3,
@@ -42312,7 +42270,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-10-15_18:25:00.jpg": {
     "temp": 64.2,
@@ -42333,7 +42291,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-10-16_18:23:00.jpg": {
     "temp": 63.4,
@@ -42354,7 +42312,7 @@
     "overall_day_visibility": 14.4,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-10-17_18:21:00.jpg": {
     "temp": 56.9,
@@ -42396,7 +42354,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-10-19_18:17:00.jpg": {
     "temp": 57.2,
@@ -42417,7 +42375,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-10-20_18:15:00.jpg": {
     "temp": 56.9,
@@ -42690,7 +42648,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-11-03_17:49:00.jpg": {
     "temp": 32.7,
@@ -42816,7 +42774,7 @@
     "overall_day_visibility": 14.9,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-11-09_16:40:00.jpg": {
     "temp": 32.9,
@@ -42837,7 +42795,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-11-10_16:38:00.jpg": {
     "temp": 34.6,
@@ -42879,7 +42837,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-11-12_16:36:00.jpg": {
     "temp": 40.8,
@@ -42900,7 +42858,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-11-13_16:34:00.jpg": {
     "temp": 40.1,
@@ -42921,7 +42879,7 @@
     "overall_day_visibility": 11.8,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-11-14_16:33:00.jpg": {
     "temp": 41.3,
@@ -42942,7 +42900,7 @@
     "overall_day_visibility": 15.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-11-15_16:32:00.jpg": {
     "temp": 41.2,
@@ -42963,7 +42921,7 @@
     "overall_day_visibility": 37.4,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-11-16_16:30:00.jpg": {
     "temp": 42.2,
@@ -42984,7 +42942,7 @@
     "overall_day_visibility": 34.6,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-11-17_16:29:00.jpg": {
     "temp": 49.0,
@@ -43005,7 +42963,7 @@
     "overall_day_visibility": 33.7,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-11-18_16:28:00.jpg": {
     "temp": 36.3,
@@ -43026,7 +42984,7 @@
     "overall_day_visibility": 31.8,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-11-19_16:27:00.jpg": {
     "temp": 35.9,
@@ -43047,7 +43005,7 @@
     "overall_day_visibility": 40.0,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-11-20_16:26:00.jpg": {
     "temp": 39.9,
@@ -43152,7 +43110,7 @@
     "overall_day_visibility": 10.8,
     "overall_day_preciptype": ["rain"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-11-26_16:20:00.jpg": {
     "temp": 41.4,
@@ -43194,7 +43152,7 @@
     "overall_day_visibility": 30.2,
     "overall_day_preciptype": ["rain", "snow"],
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [1, 0, 0, 0, 0]
+    "rating": [0, 1, 0, 0, 0]
   },
   "frames/time_2022-12-02_16:16:00.jpg": {
     "temp": 26.2,
@@ -43236,7 +43194,7 @@
     "overall_day_visibility": 30.1,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 0, 1]
   },
   "frames/time_2022-12-04_16:15:00.jpg": {
     "temp": 30.1,
@@ -43257,7 +43215,7 @@
     "overall_day_visibility": 34.4,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-12-05_16:14:00.jpg": {
     "temp": 28.0,
@@ -43383,7 +43341,7 @@
     "overall_day_visibility": 15.3,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 0, 1, 0, 0]
+    "rating": [0, 0, 0, 1, 0]
   },
   "frames/time_2022-12-13_16:13:00.jpg": {
     "temp": 33.9,
@@ -43425,7 +43383,7 @@
     "overall_day_visibility": 20.8,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-12-15_16:13:00.jpg": {
     "temp": 31.6,
@@ -43446,7 +43404,7 @@
     "overall_day_visibility": 29.5,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-12-16_16:13:00.jpg": {
     "temp": 31.1,
@@ -43572,7 +43530,7 @@
     "overall_day_visibility": 38.4,
     "overall_day_preciptype": null,
     "default_rating": [0, 0, 0, 1, 0],
-    "rating": [0, 1, 0, 0, 0]
+    "rating": [0, 0, 1, 0, 0]
   },
   "frames/time_2022-12-22_16:15:00.jpg": {
     "temp": 18.1,
