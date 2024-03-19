@@ -8,3 +8,4 @@ __pycache__/*
 .log
 src/scripts/wandb
 new_env/
+__pycache__

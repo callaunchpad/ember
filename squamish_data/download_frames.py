@@ -59,7 +59,7 @@ SUS BC TRANSITION:
 
 def opencv_read_frames(m3u8_url, output_path, START_TIME, END_TIME):
     # Read JSON
-    with open("data.json") as json_file:
+    with open("json_data/data.json") as json_file:
         image_dict = json.load(json_file)
 
     # Set start time and end time seconds to 00 to prevent off by one errors

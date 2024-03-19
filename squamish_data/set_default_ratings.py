@@ -21,4 +21,4 @@ def set_default_ratings(path, attribute="default_rating"):
 
 
 if __name__ == "__main__":
-    set_default_ratings("data.json")
+    set_default_ratings("json_data/data.json")

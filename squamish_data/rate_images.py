@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 
 # Load JSON data
-data_path = Path("../data.json")
+data_path = Path("json_data/datav2.json")
 with open(data_path, "r") as file:
     data = json.load(file)
 

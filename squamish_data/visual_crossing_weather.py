@@ -77,7 +77,7 @@ def parse_time_from_image_path(image_path):
 
 
 def get_weather_data_for_frames(frame_dir, OVERWRITE=False):
-    with open("data.json") as json_file:
+    with open("json_data/data.json") as json_file:
         image_dict = json.load(json_file)
 
     # Get image paths

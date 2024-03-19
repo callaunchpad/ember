@@ -55,11 +55,11 @@ def augment_data(input_path, output_path, rating_to_augment, copies):
 
 if __name__ == "__main__":
     # Example usage
-    input_path = "datav2_augmented_noisy.json"
-    output_path = "datav2_augmented_noisy.json"
-    rating_to_augment = 5  # For example, augment data with a 4/5 rating
+    input_path = "json_data/datav2_augmented_noisy.json"
+    output_path = "json_data/datav2_augmented_noisy_more_2s.json"
+    rating_to_augment = 2  # For example, augment data with a 4/5 rating
     copies_to_make = (
-        8  # Number of copies to make for each data point with the specified rating
+        2  # Number of copies to make for each data point with the specified rating
     )
 
     augment_data(input_path, output_path, rating_to_augment, copies_to_make)
