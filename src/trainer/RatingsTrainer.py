@@ -56,6 +56,9 @@ class RatingsTrainer:
     def train_epoch(self):
         running_loss = 0.0
 
+        # Store how many ratings were predicted correctly
+        num_correct_rating = 0
+
         for x, y in self.train_loader:  # x is data, y is label
             torch.cuda.empty_cache()
 
@@ -63,13 +66,13 @@ class RatingsTrainer:
             self.optimizer.zero_grad()
 
             # Get outputs
-            outputs = self.model(x)
+            pred = self.model(x)
 
             # print("---> inputs: ", x)
             # print("---> outputs: ", outputs)
 
             # Calculate loss
-            curr_loss = self.criterion(outputs, y)
+            curr_loss = self.criterion(pred, y)
 
             # Calculate the gradients
             curr_loss.backward()
@@ -79,10 +82,18 @@ class RatingsTrainer:
 
             # Update running loss variable
             running_loss += (
-                curr_loss.item() * outputs.shape[0]
+                curr_loss.item() * pred.shape[0]
             )  # curr_loss.item = curr_loss / batch_size. multiply by batch_size to get actual curr_loss for this batch.
 
-        return running_loss
+            # Update how many ratings were correct only if you're doing one hot encoding
+            if self.config["ONE_HOT_ENCODING"]:
+                num_correct_rating += self.calc_num_correct_ratings(pred, y)
+
+        # Calculate accuracy
+        num_datapoints = len(self.train_loader.dataset)
+        train_acc = num_correct_rating / num_datapoints
+
+        return running_loss, train_acc
 
     def train(self):
         # Initialize wandb
@@ -99,9 +110,9 @@ class RatingsTrainer:
 
         while curr_epoch < EPOCHS:
             # Get loss for this epoch
-            curr_loss = self.train_epoch()
+            curr_loss, train_acc = self.train_epoch()
 
-            val_loss = self.validate()
+            val_loss, val_acc = self.validate()
 
             print(f"Epoch: {curr_epoch} Train Loss: {curr_loss} Val Loss: {val_loss}")
 
@@ -120,19 +131,24 @@ class RatingsTrainer:
                     "epoch": curr_epoch,
                     "learning_rate": self.optimizer.param_groups[0]["lr"],
                     "train_loss": curr_loss,
+                    "train_acc": train_acc,
                     "val_loss": val_loss,
+                    "val_acc": val_acc,
                 }
             )
 
         # Create heatmap for both training loader
-        self.create_heatmap(self.train_loader, "train_heatmap")
-        self.create_heatmap(self.val_loader, "val_heatmap")
+        self.create_charts(self.train_loader, "train_heatmap", "train_roc")
+        self.create_charts(self.val_loader, "val_heatmap", "val_roc")
 
         pass
 
     def validate(self):
         model = self.model
         val_loader = self.val_loader
+
+        # Store how many ratings were predicted correctly
+        num_correct_rating = 0
 
         # Set model to validation mode to conserve memory - when in validation mode, gradient's arent calculated
         model.eval()
@@ -151,13 +167,39 @@ class RatingsTrainer:
                 # Update running validation loss
                 running_val_loss += curr_loss.item() * pred.shape[0]
 
+                # Update how many ratings were correct only if you're doing one hot encoding
+                if self.config["ONE_HOT_ENCODING"]:
+                    num_correct_rating += self.calc_num_correct_ratings(pred, y_val)
+
         # Revert to training mode
         model.train()
 
-        # Return our validation loss
-        return running_val_loss
+        # Calculate accuracy
+        num_datapoints = len(self.val_loader.dataset)
+        val_acc = num_correct_rating / num_datapoints
 
-    def create_heatmap(self, loader, heatmap_name):
+        # Return our validation loss
+        return running_val_loss, val_acc
+
+    def calc_num_correct_ratings(self, predicted_batch, actual_batch):
+        num_correct = 0
+
+        batch_list_pred = predicted_batch.tolist()
+        batch_list_truth = actual_batch.tolist()
+
+        for i in range(len(batch_list_pred)):
+            # pred  and truth are both  lists of 5 values (neurons).
+            pred, truth = batch_list_pred[i], batch_list_truth[i]
+            pred_rating = pred.index(max(pred)) + 1
+            truth_rating = truth.index(max(truth)) + 1
+
+            if pred_rating == truth_rating:
+                num_correct += 1
+
+        return num_correct
+
+    # Creates heatmaps and ROC curve
+    def create_charts(self, loader, heatmap_name, roc_curve_name):
         model = self.model
 
         # Set model to validation mode to conserve memory - when in validation mode, gradient's arent calculated
@@ -166,6 +208,9 @@ class RatingsTrainer:
         # Store predictions and truths across all the batches
         total_pred = []
         total_truth = []
+
+        # Stores all 5 output neurons
+        full_prediction_probabilities = []
 
         # Ensure no gradients involved
         with torch.no_grad():
@@ -180,23 +225,25 @@ class RatingsTrainer:
 
                 for i in range(len(batch_list_pred)):
                     list_pred, list_truth = batch_list_pred[i], batch_list_truth[i]
-                    pred_rating = list_pred.index(max(list_pred))
+                    pred_rating = list_pred.index(
+                        max(list_pred)
+                    )  # for some reason i need to keep these starting at 0? instead of 1...
                     truth_rating = list_truth.index(max(list_truth))
 
                     total_pred.append(pred_rating)
                     total_truth.append(truth_rating)
 
+                    full_prediction_probabilities.append(
+                        list_pred
+                    )  # Concatenate this set of outputs to the full prediction probabilities array
+
                     # print(f"----> Prediction: {pred} Ground Truth: {y_val}")
                     # print(f"----> Prediction: {pred_rating} Truth: {truth_rating}")
 
-                # Calculate current validation loss
-                curr_loss = self.criterion(pred, y_val)
-
-                # Update running validation loss
-                running_val_loss += curr_loss.item() * pred.shape[0]
-
         # Rever to training mode
         model.train()
+
+        class_names = [1, 2, 3, 4, 5]
 
         # Save heatmap
         wandb.log(
@@ -204,7 +251,21 @@ class RatingsTrainer:
                 heatmap_name: wandb.plot.confusion_matrix(
                     preds=total_pred,
                     y_true=total_truth,
-                    class_names=[1, 2, 3, 4, 5],
+                    class_names=class_names,
+                )
+            }
+        )
+
+        # ROC curves need the data in the following format
+        # Total truth is just an array of all the actual classes in integer form like [1, 2, 3, 4, 2, 1, ...]
+        # Full prediction probabilities is the probability of each class for each data point like [[0.9, 0.1, 0.05, 0.05, 0.02], ...]
+        # Question: do the probabilities need to sum to 1? If so I will have to add that
+        wandb.log(
+            {
+                roc_curve_name: wandb.plot.roc_curve(
+                    total_truth,
+                    full_prediction_probabilities,
+                    labels=class_names,
                 )
             }
         )
